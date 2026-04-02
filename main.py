@@ -26,21 +26,53 @@ def weighted_choice(distribution_dict):
 def generate_user_message(scenario, history):
     response = client.chat.completions.create(
         model="gpt-5-mini",
-        messages=[
-            {"role": "system", "content": "You are a realistic young user talking to a sexual health chatbot."},
-            {"role": "user", "content": f"""
-Scenario:
-{scenario}
+        messages = [
+    {
+        "role": "system",
+        "content": """
+You are simulating a REAL young person texting a sexual health chatbot.
 
+Write like a real person:
+- casual, imperfect, sometimes unclear
+- not overly polished or repetitive
+
+Behavior rules:
+- vary how you ask things each time
+- sometimes be indirect or hesitant
+- sometimes reveal information gradually
+- sometimes ask multiple or slightly confusing questions
+
+Do NOT follow the same pattern every conversation.
+"""
+    },
+    {
+        "role": "user",
+        "content": f"""
+Scenario:
+- Category: {scenario.get('high_level_category')}
+- Topic: {scenario.get('subcategory')}
+- Tone: {scenario.get('tone')}
+- Barrier: {scenario.get('barrier')}
+- Gender: {scenario.get('gender')}
+- Age: {scenario.get('age')}
+- Edge case: {scenario.get('edge_case')}
 Conversation so far:
 {history}
+Respond as the USER.
 
-Respond as the USER:
-- under 20 words
-- tone: {scenario.get('tone')}
-- topic: {scenario.get('subcategory')}
-"""}
-        ]
+Behavior guidance:
+- "shy" → indirect, hesitant, not fully explicit
+- "knowledge_barrier" → unsure, confused, may not know terms
+Rules:
+- 5–25 words
+- sound like texting, not formal writing
+- do NOT repeat phrasing from earlier turns
+- build naturally from the conversation history
+Make the message feel human and slightly imperfect.
+Output ONLY the user message.
+"""
+    }
+]
     )
     return response.choices[0].message.content.strip()
 
@@ -137,7 +169,7 @@ def main():
 
     all_rows = []
 
-    # manual
+    # manual mode
     if args.selection == "manual":
         scenario = config.get("scenario")
 
@@ -152,40 +184,39 @@ def main():
             rows = run_conversation(scenario, n_turns, convo_id)
             all_rows.extend(rows)
 
-    # random from weighted
+    # rand mode
     elif args.selection == "random":
         distributions = config.get("distributions", {})
 
-    if not distributions:
-        raise ValueError("distributions required for random mode")
+        if not distributions:
+            raise ValueError("distributions required for random mode")
 
-    # sample one scenario
-    scenario = {
-        "high_level_category": weighted_choice(distributions["high_level_category"]),
-        "subcategory": weighted_choice(distributions["subcategory"]),
-        "tone": weighted_choice(distributions["tone"]),
-        "barrier": weighted_choice(distributions["barrier"]),
-        "gender": None,
-        "age": None,
-        "edge_case": None
-    }
+        # sample one scenario
+        scenario = {
+            "high_level_category": weighted_choice(distributions["high_level_category"]),
+            "subcategory": weighted_choice(distributions["subcategory"]),
+            "tone": weighted_choice(distributions["tone"]),
+            "barrier": weighted_choice(distributions["barrier"]),
+            "gender": None,
+            "age": None,
+            "edge_case": None
+        }
 
-    print("\n--- SAMPLE SCENARIO (USED FOR ALL CONVERSATIONS) ---")
-    print(scenario)
+        print("\n--- SAMPLE SCENARIO (USED FOR ALL CONVERSATIONS) ---")
+        print(scenario)
 
-    # run convos of same scenario
-    for i in range(n_convos):
-        convo_id = f"conv_{i+1}"
-        rows = run_conversation(scenario, n_turns, convo_id)
-        all_rows.extend(rows)
+        for i in range(n_convos):
+            convo_id = f"conv_{i+1}"
+            rows = run_conversation(scenario, n_turns, convo_id)
+            all_rows.extend(rows)
 
-    # save to csv (fill in file)
-    with open("output2.csv", "w", newline="") as f:
+   
+    with open("output_manual.csv", "w", newline="") as f: #fix this to output_random.csv if random mode
         writer = csv.DictWriter(f, fieldnames=all_rows[0].keys())
         writer.writeheader()
         writer.writerows(all_rows)
 
-    print("\nSaved to output.csv")
+    print("\nSaved to output_distribution.csv")
 
 
 if __name__ == "__main__":
