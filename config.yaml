@@ -1,15 +1,17 @@
 scenario:
   high_level_category: srh
   subcategory: contraception
-  tone: shy
+  tone: shy           # options: shy, knowledge_barrier, confused, none_neutral_just_curious, fear_shame_stigma, anxiety_overwhelm, positive_health_seeking
   barrier: knowledge_barrier
   gender: female
   age: 18
   edge_case: null
+  free_form: "The user is in a rural area with no clinic access"
 
 settings:
   n_convos: 3
-  n_turns: 4
+  n_turns: [3,4,5]          # integer (same for all) OR a list matching n_convos, e.g. [3, 4, 5]
+  topic_change: random  # null (same topic), "random", a string e.g. "stis", or a list e.g. [contraception, stis, pregnancy]
 
 distributions:
   high_level_category:
@@ -33,6 +35,7 @@ distributions:
     fear_shame_stigma: 0.0648
     anxiety_overwhelm: 0.0880
     positive_health_seeking: 0.0804
+    confused: 0.0001   # set weight > 0 to include in random sampling
 
   barrier:
     knowledge_barrier: 0.6661
