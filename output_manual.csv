@@ -1,127 +1,89 @@
 conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form
-conv_1,1,"um... I'm kinda lost. how do I tell a guy I don't want to go further? live rural, no clinic help","Eish, I hear you, sisi. It’s tough when there aren’t big support systems readily available nearby. But let me tell you this: you *don’t owe anyone* anything. Your body, your rules—no matter where you are or who you're dealing with 💪🏾.
+conv_1,1,"Uh, I'm 18 and rural with no clinic. My period's irregular and I'm confused, is that normal?","Alright, wena, it can be a bit scary, but let's unpack this. Irregular periods can happen naturally, especially if you're still young. A typical menstrual cycle is between 21–35 days, but if your period is coming way too often or disappearing for months, it's worth flagging, okay? 💡
 
-Here’s how you can let him know and set boundaries:
-- Be clear and firm when you say, “I don’t feel comfortable going further” or “This isn’t what I want right now.”
-- You don’t have to explain your reasons in detail if you’re not up to it. “No” is a whole sentence.
-- If he's respectful, he’ll back off. But if he tries to pressure you or guilt-trip you (like ""If you loved me, you would""), that's a red flag 🚩.
+Here’s why it might be irregular:
+- Stress 🧠 
+- Diet 🥦 or extreme weight changes.
+- Conditions like PCOS or thyroid issues.
+- Hormonal shifts (which are super common in your late teens!) 
 
-If he doesn’t listen, avoid being alone with him and tell someone you trust—like a family member, older friend, or teacher. Rural or not, your safety matters more than *anything*. You’ve got this!",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_1,2,"um... if I say I'm not ready and he gets mad, what do I do? idk, leave?","Yoh, girl, that’s already telling you a lot about him, hey? Someone who *truly cares* will respect your boundaries—even if they’re disappointed. Their reaction is their responsibility, not yours. 🌻
+Since clinics are too far for you, try tracking your cycle at home. Write the start date of each period and any symptoms (like cramps, mood swings, flow types). Apps like Oky (for youth) can help if you have basic mobile data. 📱
 
-If he gets mad when you say no, try this:
-1. Stay calm but firm. Repeat your boundary: “I’m not ready.” No need to argue or explain; your ""no"" is enough. 
-2. If he keeps pushing or guilt-tripping, it’s okay to walk away. You are not responsible for managing his feelings or temper. 
-3. Afterward, give yourself space to reflect and process. Anger or manipulation are big signs he’s not acting in your best interest 🌪️.
+If irregular periods make your life hard (like super painful cramps or heavy bleeding), see if someone can help you visit a clinic. But if it's manageable and you're otherwise healthy, you may just need time for your cycle to settle. 💕
 
-And if leaving feels awkward or tricky, think about setting up a safe plan. For example:
-- Meet in neutral places (like by friends or family nearby).
-- Let someone you trust know where you are. 
-- If he gets aggressive (even with words), please reach out to a trusted adult for guidance. Don’t deal with this alone.
+Got more questions? You're not alone!",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_1,2,"Um... how many months with no period is okay? And like, what's heavy bleeding exactly?","Good questions, my choma—let’s break it down so you’re clued up! 📝
 
-You’re stronger than you think, chommie. Proud of you for standing your ground! ❤️",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_1,3,"Okay... but what if I'm stuck at his place? I can't just go home sometimes, help?","Eish, I really feel for you — it sounds super tough right now. Just remember, your safety comes first, and you don’t have to stay where you're feeling disrespected or unsafe. Here are some steps to consider:
+### How long is okay to go without a period?
+If your periods come and go or disappear for **more than 3 months** (and you’re not on birth control or pregnant), it’s a heads-up to check things out! Skipping one or two months might be fine if you’ve been stressed or sick. But long gaps could mean things like PCOS (polycystic ovary syndrome) or imbalances that need some attention.
 
-1. **Stay cool:** Try to keep calm so you can think clearly. It might help to act like everything’s fine, if you need to.
-2. **Make a reason to leave:** Think of an excuse to get out, like needing to visit someone or remembering something important at home.
-3. **Reach out:** If you can’t leave right away, message a trusted friend or adult for help. A simple text like “I need to go home, but I need help” can work wonders.
-4. **Call for help:** If you ever feel threatened, don’t hesitate to call **10111** for police assistance or **10177** for an ambulance.
+If it’s been months without bleeding and you’re unsure why, it’s good to reach out to a trusted adult or try to get to a clinic when possible. 💡
 
-And please, tell someone you trust what’s going on. You don’t have to handle this alone! If you need support, you can reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA. 
+### What is heavy bleeding?
+Heavy bleeding (called menorrhagia) is when:
+- You soak through a pad or tampon **every 1–2 hours** or need extra layers like doubling up on pads. 👀
+- Clots bigger than R5 coins come out.
+- Your period lasts **more than 8 days** or makes you feel dizzy, super exhausted, or out of breath.
 
-If you want more info on services, type SERVICES — it might be frustrating, but it’s the safer option. You can also type ASK to connect with a real person for support. You got this, chommie! 💖",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,1,"Um… if I'm quiet and don't say no, is that consent? I can't go to a clinic here...","Eish, listen up, chommie. It’s super important to know that **silence is NOT consent**. Consent means giving an *active* “yes” with clear communication—through words, actions, or even body language. If you’re feeling scared or pressured and can’t speak up, that doesn’t mean you’ve agreed.
+If this is happening, it’s not safe to just wait it out. Ask yourself: Is there a neighbour, a school nurse, or someone supportive who can help you get to a medical centre? 
 
-If someone doesn’t respect your feelings or makes you uncomfortable, that’s not your fault. It’s okay to feel unsure in a tough situation, but remember, your body and choices are yours alone—you deserve to feel safe and respected.
+Take care of yourself, hey? If things feel ""not okay,"" trust that feeling and reach out. ❤️",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_1,3,"Um, if I miss like two periods from stress, should I worry? And how do I tell when bleeding's too much?","Okay, so missing about two periods because of stress can happen and isn't always something to panic about. Stress affects your hormones, which can disrupt your cycle. But, if you’ve missed two periods AND you’re sexually active, it’s wise to rule out pregnancy, chommz. If you’re not pregnant and your periods don’t come back soon, chat to someone who can help you get medical advice—just to check everything’s still okay. 💡
 
-If you ever need support, don’t hesitate to reach out to the Big Sis Helpline at 0800 12 84 55 (available Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or Childline SA. Also, type SERVICES for a list of vetted support services. I know it can be frustrating, but that’s the safer option. You’re not alone in this! 💖",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,2,"Um… if I freeze and don’t fight back, what can I do? I can’t call from here.","Eish, freezing is a totally normal reaction when you’re in a scary or traumatic situation—it's called the freeze response. You're not to blame for your body’s reaction, and it definitely doesn’t mean you consented. You're not alone in feeling this way.
+Now, *too much bleeding* looks like this:
+- Soaking through a pad every **hour** for several hours. 
+- Passing clots bigger than **R5 coins**.
+- Feeling weak, dizzy, or faint—that’s a sign your body might not be handling the blood loss well. 😔
 
-If you can't call for support or visit a clinic, here are some things you can do:  
-- **Write it down**: Jot down everything you remember, like the time and date. This can help if you decide to share your story later.  
-- **Tell someone**: Talk to a trusted adult, teacher, or friend who can support you.  
-- **Reach out online**: There are places that offer confidential help.  
-- **Focus on you**: Healing takes time, so remember to practice self-care, whether that's journaling or just taking deep breaths.
+If bleeding is like that, you shouldn’t wait. Even if clinics are far, try to ask a teacher, parent, or someone near you for support. Heavy bleeding can cause serious issues like anaemia, but there’s help if you reach out. ❤️ 
 
-For support, you can call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA. I know it can be frustrating, but check out the Services Directory by typing SERVICES for vetted support. If you're looking for a real person to chat with, type ASK. You matter, and we’re in this together. 💜",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,3,I... how do I document what happened? Like what details should I note? I'm scared.,"I hear you, chommie, and I'm so sorry you're going through this. Feeling scared is natural, and you’re already showing such bravery by reaching out. Documenting what happened can be empowering and useful if you ever decide to share your story or pursue action, but remember—it’s also okay to take it step by step, at your own pace. 💕 
+Got more questions? Keep asking, I’ve got your back! 🌸",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_2,1,"um... if I freeze or don't push back, is that still consent? I don't really know, I'm kinda lost","Eish, I'm so sorry you're feeling like this 💔. Let me start by saying: *freezing* or not fighting back when something happens is something a lot of people experience, and it **doesn't mean you've consented**. Consent means saying ""yes"" freely, actively, and without pressure. If you freeze, it’s usually your body’s natural response to fear, shock, or even confusion—it’s a way your brain tries to protect you 🧠. It’s not your fault. Ever. 
 
-Here’s how to document safely:  
-- **Write down what you can remember**: Include dates, times, places, what was said or done, and anything specific about the person (if you know them).  
-- **Focus on the key details**: Don’t pressure yourself to remember everything. Only write what you feel comfortable—this is for *you*.  
-- **Include how you felt**: Were you scared, frozen, confused? Your emotions are important to note.  
-- **Save any evidence**: Messages, emails, photos—anything that could help you later.  
+Consent comes with choice, and you have the right to feel safe, respected, and comfortable at all times. If you didn't actively say or show yes—even if the situation felt overwhelming or you couldn’t say no—then what happened isn’t your responsibility 💯. Sexual assault is never the victim's fault. Ever ever ever. 
 
-Keep this information somewhere safe, like a password-protected note on your phone or a hidden notebook. And chommie, if you feel overwhelmed, just pause and breathe—there’s no rush to do this all at once. You’re not alone, okay? Let me know if you need help finding resources or figuring out your next step. ❤️",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,4,"Um… I live with them. If I save messages on my phone, could they find them? I’m really nervous.","Eish, my heart goes out to you. It’s really tough living with someone who makes you feel unsafe, but you’re being so brave in protecting yourself, and I’m super proud of you! 🌻
+Please know there are people who care and can help, even if speaking up feels scary. If you’re ready, you can type ""CONNECT"" or ""SERVICES"" for info on where to get support. You don’t have to face this alone, chommz ❤️‍🩹.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_2,2,"so... if I didn't resist cuz I was shocked, can I still get help or report? no nearby clinic","Yoh, my heart is heavy for you 💔. You absolutely can get help or report it—even if you didn’t resist. Freezing or being shocked is a normal reaction and doesn’t make what happened to you okay. It's not your fault, and you deserve support. 
 
-If you’re worried about someone going through your phone, here are some ways to keep it safer:  
-1. **Use a secure app**: Consider password-protected notes or messaging yourself on WhatsApp and archiving it if you feel anxious.  
-2. **Adjust your phone security**: Turn off notifications for messages and use a strong PIN/password. Avoid fingerprint or face ID if there’s a chance they’ll force you to unlock it.  
-3. **Delete after saving**: If you’ve written anything down, snap a pic or email it to yourself, then clear it from your phone — don’t forget to check the “Deleted” folder!  
-4. **Code words**: Use symbols or abbreviations that only you understand if you feel it's risky to save certain words.
+If you decide to report it, head to a police station and ask to speak to their Family Violence, Child Protection & Sexual Offences (FCS) Unit if they have one. It can also help to chat with someone right away, like through the Big Sis Helpline at 0800 12 84 55 (available Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or Childline SA at 116 if you're younger. 
 
-If online support is needed, you can contact Childline SA. You can also reach out for support from the Big Sis Helpline at 0800 12 84 55. For more service options, type SERVICES; it’s a safer choice. You’re not alone in this! ❤️",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,1,"um my periods started late and now they're heavy? i'm out in the countryside, no clinic, what do i do?","Shame, wena—being far from a clinic, plus a heavy flow, can be stressful, but don’t stress too much—let’s sort you out step by step!
+I know this might feel overwhelming, but remember, you’re strong and deserve all the love and care in the world 💜. For more safe options, type SERVICES to check out the Big Sis Services Directory. You're not alone in this!",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_2,3,"um... if I need evidence or meds and I'm out in the sticks, what do I even do?","Eish, chommie, I know this is a tough situation 😥, but there are ways to take care of yourself. Here’s what you can do:
 
-1. **Stay calm and prepared**:
-   - If your heavy flow has caught you off guard, change your pad or tampon more often to prevent leaks.
-   - If you’ve run out of products, you can make a temporary pad by folding thick layers of clean toilet paper, tissues, or even a clean cloth. Place it securely in your underwear.
+1. **Evidence Collection**: If you feel ready to report, keep any clothes from the incident unwashed in a paper bag. Avoid washing up or changing clothes so the evidence stays intact. Even if you’ve already done this, it’s okay—you can still speak up! 
 
-2. **Prevent leaks**:
-   - Wear double underwear for extra security.
-   - Sit on a towel or extra layer if you’re worried about staining furniture.
+2. **Post-Exposure Medication**: For protection against pregnancy or STIs, consider emergency contraception and HIV prevention meds. 
 
-3. **Rest and hydrate**:
-   - Heavy bleeding can make you feel tired and dizzy, so try taking it easy while keeping your fluid intake up. Water, juice, or tea will help.
+3. **Getting Support**: If you can’t reach a clinic, check if there are mobile clinics or community health workers visiting your area. You can also call Childline SA for support.
 
-4. **Ease the cramps**:
-   - If you have pain, use a warm compress (like a bottle filled with warm water) on your lower tummy. Gentle stretches can also help.
+Big Sis uses AI, so I can't give exact service details. It’s best to check the Big Sis Services Directory—just type SERVICES for vetted options. If you want to chat with a real person, type ASK. Remember, you’re not alone; I’m here for you ❤️. If you need immediate help, don’t hesitate to call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_2,4,um... so how long after can i still take the morning-after pill or HIV prevention? i'm really scared,"Eish, wena, I see you’re in a tough spot, and it’s brave of you to reach out. Here’s the lowdown:
 
-5. **Temporary relief for heavy flow**:
-   - If you have access to ibuprofen (and can take it safely), it can reduce flow and cramps a bit. Always follow the dosage instructions.
+1. **Emergency contraception**: You can get the morning-after pill within **72 hours (3 days)** after unprotected sex, and it works best the sooner you take it. There’s another option that’s effective up to **5 days**, but it's not as common.
 
-If your flow lasts longer than 7 days or you feel extremely dizzy, pale, or unwell, get to a clinic when you can, even if it takes time. 💛 Stay safe; you’ve got this!",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,2,um… I don't have ibuprofen. Will a warm cloth or herbal tea do anything? when should I urgently seek help?,"Yoh, I hear you—we’ll work with what’s available, chommie. 💪  
+2. **HIV prevention (PEP)**: This medication can help prevent HIV if taken within **72 hours (3 days)** after exposure. Timing is crucial!
 
-Both a **warm cloth** and **herbal tea** are gentle ways to help with cramps and comfort:
-- **Warm cloth**: Use a clean towel soaked in warm water, wring it out, and rest it on your lower tummy. Warmth can relax the muscles of your uterus and ease the ache a bit.
-- **Herbal tea**: Chamomile 🌼 or ginger 🍵 are great for calming cramps and bloating. Even rooibos tea can be soothing and helps keep you hydrated. Sip slowly and often.
+I can't share specific service details, but check out the Big Sis Services Directory by typing ""SERVICES"" for safe, vetted options. If you need immediate support, call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. You’re not alone, and you’ve got this ❤️.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_3,1,So... I missed my period and can't reach a clinic. Can I test at home? Is that reliable?,"Eish, you can definitely test at home! Just grab a pregnancy test from your local pharmacy or shop. These tests check for a hormone called hCG that's only there if you're pregnant. 
 
-Now, here’s when you should urgently seek help (even if you’re far):
-1. If your **bleeding is extremely heavy** (like soaking a pad/tampon every hour for several hours).
-2. If you have **severe abdominal pain** that won’t settle even after trying warm compresses or pain-relieving tea.
-3. If you’re feeling **dizzy, faint, or weak**—those could be signs of iron loss or dehydration.
-4. If your period lasts **longer than 7 days** or gets heavier over time.
+Remember to follow the instructions carefully, and it's best to use the test first thing in the morning for the most accurate results. If it’s positive, please chat with a nurse or doctor to confirm and discuss your options. 
 
-If transport to a clinic isn’t easy now, let someone know what’s happening and try to rest up while monitoring your symptoms closely. You’re not alone, boo—you’ve got this! 🫶🏿",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,3,"um... how fast is ""too much""? if a pad's soaked in an hour, should I try find help now? I'm alone.","Eish, hearing you're alone breaks my heart, but I’m here with you, chommie. If you’re soaking **one full pad every single hour for several hours**, that’s heavy bleeding, and it’s a reason to reach out for help as soon as possible.
+While home tests can give you quick answers, it’s super important to get proper healthcare support if you’re unsure or worried. If you need help finding services, you can check out the Big Sis Services Directory by typing SERVICES. Don't forget, you can always call the Big Sis Helpline at 0800 12 84 55 for support. You got this, chommie! 💕",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_3,2,"Thanks... um, how soon after a late cycle can I check? And if it says no but I'm still late, then what?","Good question, chommie! 🌟 So, you can take a pregnancy test from the *first day* of your missed period, or even a few days after. If you're unsure, waiting a week after your missed cycle often gives the most reliable result.
 
-Since you’re alone, here’s what you can do now:
-1. **Prioritise rest**: Lie down and keep your legs slightly elevated. This helps if you’re feeling dizzy or lightheaded.
-2. **Stay hydrated**: Drink water or tea, sip by sip—it replaces fluids you're losing and can keep you steady. Add a pinch of salt or sugar if you have it.
-3. **Temporary pad options**: If you're running out of pads, use folded toilet paper, tissues, or a clean cloth as a backup.
-4. **Call or message someone**: Even if it feels awkward, let a trusted friend, family member, or neighbour know what's happening and ask for help. Explain you're bleeding heavily and need to get to a clinic or have someone check on you.
+Here’s the thing: If the test says ""not pregnant"" and your period is still MIA, it could be stress, diet changes, illness, or even hormonal shifts (which are super common). But don’t ignore it—if the delay is more than a couple of weeks, test again or try your best to get to a clinic to check. 
 
-Don't wait too long if the bleeding stays this heavy, especially if you're feeling weaker. You are strong, chommie, and right now taking care of yourself is the main thing. ❤️ Let me know if you’re unsure about the next step.",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,4,uh… how long can I safely wait before it’s urgent? I’m kinda lightheaded but not fainted yet,"Eish, chommie, if you’re feeling lightheaded, it’s serious. Heavy bleeding can cause your blood volume to drop, and you shouldn’t ignore it. Here’s what to do:
+Either way, tracking your cycles can help spot irregularities and give you a heads-up on what’s happening. Not sure how to start tracking? Let me know, and I can guide you! Otherwise, take it one step at a time, hey. Keep me posted if you need extra help! ❤️",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_3,3,"Um, quick thing — does it matter if I test later in the day or only morning pee works?","Testing later in the day is fine, chommie, but using your *morning pee* can give better results. That’s because your morning urine is more concentrated, which means it has higher levels of hCG (the pregnancy hormone). 🌟
 
-🚨 **Get help immediately if**:
-- You’re soaking a pad every hour.
-- The dizziness is getting worse, making you feel faint.
-- You’re confused, struggling to breathe, or your heart is racing.
-- There’s sudden severe pain.
-- You’re losing energy fast or feel like you might pass out.
+If you test later in the day, and the result seems unclear, maybe test again the next morning to double-check. And remember, always follow the instructions on the test carefully for accurate results. If you’re still feeling unsure or need options after testing, I’m here to help! 💕✨",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_3,4,"Um... if there's a really faint line, does that mean I'm pregnant? I don't really get it.","Okay, chommie, breathe—this part can definitely be confusing! 💡 A faint line *can* mean you're pregnant, but it depends.
 
-Since you might be alone, it's crucial to have someone to support you. You can call emergency services by dialing **112** on your phone—it will work even without airtime. Until help arrives, lie down, sip on fluids, and keep warm with a blanket. 
+Basically, any visible line, even if it's super faint, usually means hCG (the pregnancy hormone) is in your urine, which suggests pregnancy. The faintness might be because it's still early, and your hCG levels aren’t high yet. But to be sure:
+1. Wait 2–3 days and test again (preferably morning pee for accuracy).
+2. Alternatively, visit a clinic or pharmacy for a more sensitive test if you can manage.
 
-For more support, try calling the free Big Sis Helpline at 0800 12 84 55 or Childline SA. And if you need vetted local services, type SERVICES. I know it’s a tough situation, but you’re not alone! 💛",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,5,um… I feel woozy and a bit weak but still standing. Wait it out a few hours or get help now?,"Eish, chommie, I really want you to be safe. If you’re feeling weak and dizzy, it’s super important to get help right away. Heavy bleeding needs attention, and you shouldn't wait it out.
+If you’re stressed out or stuck for options, chat to a health worker as soon as possible. You’ve got this—no matter the outcome, we’ll figure it out together, hey. ❤️ If you need advice on what happens next, let me know!",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+conv_3,5,"Um... if the mark's super pale, how many days should I wait before trying another one?","Aweh, I hear you, chommz—waiting can be nerve-wracking. If the line is super faint, give it 2 to 3 days before trying again. The extra time allows your hCG levels (a hormone detected when you're pregnant) to increase, especially if it’s early days. 🌱
 
-Here’s what you should do immediately:
-1. Call for help using the Big Sis Helpline at 0800 12 84 55 (available Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or Childline SA for support. 
-2. Sit or lie down: Don’t stand if you’re feeling lightheaded; it’s safer to lie with your legs slightly elevated if you can.
-3. Sip on some water to stay hydrated.
-4. If your supplies are low, use folded toilet paper or a clean cloth to manage the bleeding.
-
-Just know you’re not alone in this. I know it might be frustrating, but for more support, type SERVICES to find vetted options. You deserve to feel safe and cared for. 💜",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+But hey, if your next test is also faint or confusing, a clinic can give you a more accurate result. Plus, visiting a healthcare professional can offer clarity and support if you're feeling unsure about what to do next. Promise you're not alone in this, hey—I'm here if you need more advice! ❤️✨",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
