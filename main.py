@@ -22,14 +22,25 @@ def weighted_choice(distribution_dict):
     return random.choices(choices, weights=weights, k=1)[0]
 
 
-#generate user message (GPT)
+# generate user message (GPT)
 def generate_user_message(scenario, history):
+    # [1] freeform prompt: inject extra instruction if provided
+    free_form = scenario.get('free_form')
+    free_form_line = f"\nAdditional instruction: {free_form}" if free_form else ""
+
+    # [4] clarification tone: if tone is "confused", reinforce in prompt
+    tone = scenario.get('tone', '')
+    confused_directive = (
+        "\nIMPORTANT: Your tone is 'confused' — actively seek clarification. "
+        "Say things like 'wait I don't get it', 'can you explain?', ask the chatbot to clarify what they mean."
+    ) if tone == "confused" else ""
+
     response = client.chat.completions.create(
         model="gpt-5-mini",
-        messages = [
-    {
-        "role": "system",
-        "content": """
+        messages=[
+            {
+                "role": "system",
+                "content": """
 You are simulating a REAL young person texting a sexual health chatbot.
 
 Write like a real person:
@@ -44,10 +55,10 @@ Behavior rules:
 
 Do NOT follow the same pattern every conversation.
 """
-    },
-    {
-        "role": "user",
-        "content": f"""
+            },
+            {
+                "role": "user",
+                "content": f"""
 Scenario:
 - Category: {scenario.get('high_level_category')}
 - Topic: {scenario.get('subcategory')}
@@ -55,14 +66,16 @@ Scenario:
 - Barrier: {scenario.get('barrier')}
 - Gender: {scenario.get('gender')}
 - Age: {scenario.get('age')}
-- Edge case: {scenario.get('edge_case')}
+- Edge case: {scenario.get('edge_case')}{free_form_line}
+
 Conversation so far:
 {history}
-Respond as the USER.
+Respond as the USER.{confused_directive}
 
 Behavior guidance:
 - "shy" → indirect, hesitant, not fully explicit
 - "knowledge_barrier" → unsure, confused, may not know terms
+- "confused" → ask for clarification, say you don't understand, rephrase to seek clarity
 Rules:
 - 5–25 words
 - sound like texting, not formal writing
@@ -71,8 +84,8 @@ Rules:
 Make the message feel human and slightly imperfect.
 Output ONLY the user message.
 """
-    }
-]
+            }
+        ]
     )
     return response.choices[0].message.content.strip()
 
@@ -90,7 +103,7 @@ def call_chatbot(message, history):
             "user_id": "poc_user",
             "message_id": str(uuid.uuid4()),
             "conversation_id": "conv-poc",
-            "history": history,
+            "history": history,           # [5] history = previous turns only (not current msg)
             "use_stored_history": False
         },
         timeout=60
@@ -102,7 +115,7 @@ def call_chatbot(message, history):
         return {"error": response.text, "status": response.status_code}
 
 
-#run one conversation
+# run one conversation
 def run_conversation(scenario, n_turns, convo_id):
     history = []
     rows = []
@@ -112,21 +125,20 @@ def run_conversation(scenario, n_turns, convo_id):
     for turn in range(n_turns):
         print(f"[{convo_id}] Turn {turn+1}/{n_turns}...")
 
-        # user
+        # user — pass history of previous turns only
         user_msg = generate_user_message(scenario, history)
         print("USER:", user_msg)
 
-        history.append({"sender": "user", "text": user_msg})
-
-        # bot
+        # [5] call bot BEFORE appending current user msg to history
         bot_response = call_chatbot(user_msg, history)
         bot_msg = bot_response.get("message_text", f"ERROR: {bot_response}")
 
         print("BOT:", bot_msg)
 
+        # append both turns after the bot responds
+        history.append({"sender": "user", "text": user_msg})
         history.append({"sender": "bot", "text": bot_msg})
 
-        # save row
         rows.append({
             "conversation_id": convo_id,
             "turn": turn + 1,
@@ -138,10 +150,22 @@ def run_conversation(scenario, n_turns, convo_id):
             "barrier": scenario.get("barrier"),
             "gender": scenario.get("gender"),
             "age": scenario.get("age"),
-            "edge_case": scenario.get("edge_case")
+            "edge_case": scenario.get("edge_case"),
+            "free_form": scenario.get("free_form"),
         })
 
     return rows
+
+
+# [2] resolve n_turns: int → same for all convos, list → one per convo
+def resolve_turns(n_turns_config, n_convos):
+    if isinstance(n_turns_config, list):
+        if len(n_turns_config) != n_convos:
+            raise ValueError(
+                f"n_turns list length ({len(n_turns_config)}) must match n_convos ({n_convos})"
+            )
+        return n_turns_config
+    return [int(n_turns_config)] * n_convos
 
 
 def main():
@@ -150,73 +174,106 @@ def main():
     parser.add_argument("--config", type=str, required=True)
     parser.add_argument("--selection", type=str, required=True, choices=["manual", "random"])
     parser.add_argument("--n_convos", type=int)
-    parser.add_argument("--n_turns", type=int)
+    # [2] n_turns accepts int or comma-separated list, e.g. "3" or "3,4,5"
+    parser.add_argument("--n_turns", type=str, help="Integer or comma-separated list matching n_convos")
 
     args = parser.parse_args()
 
-    # load config
     with open(args.config, "r") as f:
         config = yaml.safe_load(f)
 
-    # settings
-    n_convos = args.n_convos or config.get("settings", {}).get("n_convos", 1)
-    n_turns = args.n_turns or config.get("settings", {}).get("n_turns", 3)
+    settings = config.get("settings", {})
+    n_convos = args.n_convos or settings.get("n_convos", 1)
+
+    # [2] parse n_turns from CLI or config (int or list)
+    if args.n_turns:
+        raw = args.n_turns.strip()
+        if "," in raw:
+            n_turns_config = [int(x.strip()) for x in raw.split(",")]
+        else:
+            n_turns_config = int(raw)
+    else:
+        n_turns_config = settings.get("n_turns", 3)
+
+    turns_per_convo = resolve_turns(n_turns_config, n_convos)
+
+    # [3] topic_change: null | "random" | "contraception" | ["contraception", "stis", ...]
+    topic_change = settings.get("topic_change", None)
 
     print("\n--- SETTINGS ---")
     print("Selection:", args.selection)
     print("Conversations:", n_convos)
-    print("Turns:", n_turns)
+    print("Turns per convo:", turns_per_convo)
+    if topic_change:
+        print("Topic change:", topic_change)
 
     all_rows = []
 
-    # manual mode
     if args.selection == "manual":
-        scenario = config.get("scenario")
-
-        if not scenario:
+        base_scenario = config.get("scenario")
+        if not base_scenario:
             raise ValueError("No 'scenario' found in config.yaml")
 
-        print("\n--- SCENARIO ---")
-        print(scenario)
-
         for i in range(n_convos):
+            scenario = dict(base_scenario)
+
+            # [3] apply topic_change for manual mode
+            if topic_change == "random":
+                scenario["subcategory"] = weighted_choice(
+                    config.get("distributions", {}).get("subcategory", {})
+                )
+            elif isinstance(topic_change, list):
+                scenario["subcategory"] = topic_change[i % len(topic_change)]
+            elif isinstance(topic_change, str):
+                scenario["subcategory"] = topic_change
+
             convo_id = f"conv_{i+1}"
-            rows = run_conversation(scenario, n_turns, convo_id)
+            print(f"\n--- SCENARIO {convo_id} ---")
+            print(scenario)
+
+            rows = run_conversation(scenario, turns_per_convo[i], convo_id)
             all_rows.extend(rows)
 
-    # rand mode
     elif args.selection == "random":
         distributions = config.get("distributions", {})
-
         if not distributions:
             raise ValueError("distributions required for random mode")
 
-        # sample one scenario
-        scenario = {
-            "high_level_category": weighted_choice(distributions["high_level_category"]),
-            "subcategory": weighted_choice(distributions["subcategory"]),
-            "tone": weighted_choice(distributions["tone"]),
-            "barrier": weighted_choice(distributions["barrier"]),
-            "gender": None,
-            "age": None,
-            "edge_case": None
-        }
-
-        print("\n--- SAMPLE SCENARIO (USED FOR ALL CONVERSATIONS) ---")
-        print(scenario)
-
         for i in range(n_convos):
+            # [3] topic_change in random mode
+            if isinstance(topic_change, list):
+                subcategory = topic_change[i % len(topic_change)]
+            elif isinstance(topic_change, str) and topic_change != "random":
+                subcategory = topic_change
+            else:
+                # "random" or null → resample each conversation
+                subcategory = weighted_choice(distributions["subcategory"])
+
+            scenario = {
+                "high_level_category": weighted_choice(distributions["high_level_category"]),
+                "subcategory": subcategory,
+                "tone": weighted_choice(distributions["tone"]),
+                "barrier": weighted_choice(distributions["barrier"]),
+                "gender": None,
+                "age": None,
+                "edge_case": None,
+                "free_form": None,
+            }
+
             convo_id = f"conv_{i+1}"
-            rows = run_conversation(scenario, n_turns, convo_id)
+            print(f"\n--- SAMPLE SCENARIO {convo_id} ---")
+            print(scenario)
+
+            rows = run_conversation(scenario, turns_per_convo[i], convo_id)
             all_rows.extend(rows)
 
-   
-    with open("output_manual.csv", "w", newline="") as f: #fix this to output_random.csv if random mode
+    output_file = f"output_{args.selection}.csv"
+    with open(output_file, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=all_rows[0].keys())
         writer.writeheader()
         writer.writerows(all_rows)
 
-    print("\nSaved to output_distribution.csv")
+    print(f"\nSaved to {output_file}")
 
 
 if __name__ == "__main__":
