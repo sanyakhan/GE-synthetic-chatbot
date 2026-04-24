@@ -1,7 +1,7 @@
 scenario:
   high_level_category: srh
   subcategory: contraception
-  tone: shy           # options: shy, knowledge_barrier, confused, none_neutral_just_curious, fear_shame_stigma, anxiety_overwhelm, positive_health_seeking
+  tone: shy                                                             # options: shy, knowledge_barrier, confused, none_neutral_just_curious, fear_shame_stigma, anxiety_overwhelm, positive_health_seeking
   barrier: knowledge_barrier
   gender: female
   age: 18
@@ -10,8 +10,10 @@ scenario:
 
 settings:
   n_convos: 3
-  n_turns: [3,4,5]          # integer (same for all) OR a list matching n_convos, e.g. [3, 4, 5]
-  topic_change: random  # null (same topic), "random", a string e.g. "stis", or a list e.g. [contraception, stis, pregnancy]
+  n_turns: [3,4,5]    # integer (same for all) OR a list matching n_convos, e.g. [3, 4, 5]
+  mid_convo_topic_change:
+    topic: "random"   # null (no switch), "random", or a specific topic e.g. "stis"
+    at_turn: null     # null = random turn, or a specific turn number e.g. 2
 
 distributions:
   high_level_category:

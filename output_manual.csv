@@ -1,89 +1,102 @@
-conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form
-conv_1,1,"Uh, I'm 18 and rural with no clinic. My period's irregular and I'm confused, is that normal?","Alright, wena, it can be a bit scary, but let's unpack this. Irregular periods can happen naturally, especially if you're still young. A typical menstrual cycle is between 21–35 days, but if your period is coming way too often or disappearing for months, it's worth flagging, okay? 💡
+conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form,topic_switched_at,original_subcategory
+conv_1,1,"uh... i'm 18, live out in the sticks, no clinic nearby. how do i even start birth control?","Yoh, I get that living far from clinics can be a hassle, but don’t stress, there are options out there! Big ups to you for thinking about your sexual health—it’s super important to take charge of it!
 
-Here’s why it might be irregular:
-- Stress 🧠 
-- Diet 🥦 or extreme weight changes.
-- Conditions like PCOS or thyroid issues.
-- Hormonal shifts (which are super common in your late teens!) 
+You can check your local pharmacies for contraceptives like pills and condoms; they usually have affordable options. Some clinics might even give out pill packs for free if you pop by just once!
 
-Since clinics are too far for you, try tracking your cycle at home. Write the start date of each period and any symptoms (like cramps, mood swings, flow types). Apps like Oky (for youth) can help if you have basic mobile data. 📱
+For additional info, you can reach out to health hotlines for advice on contraception. The Big Sis Helpline is also a great resource—call 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) for support.
 
-If irregular periods make your life hard (like super painful cramps or heavy bleeding), see if someone can help you visit a clinic. But if it's manageable and you're otherwise healthy, you may just need time for your cycle to settle. 💕
+And remember, if you’re sexually active, testing for STIs regularly is key, especially if you're not using condoms. If you want reliable service details, type SERVICES. It might be a bit of a drag, but it’s definitely the safer choice. 💜",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_1,2,"oh random—um, are uneven boobs normal? kinda nervous asking","Aweh, I promise you’re not alone on this one! Uneven breasts are totally **natural** and super common. Most people’s boobs don’t match exactly in size, shape, or even position—and that’s okay. It's just how bodies are made, hey! 😊
 
-Got more questions? You're not alone!",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_1,2,"Um... how many months with no period is okay? And like, what's heavy bleeding exactly?","Good questions, my choma—let’s break it down so you’re clued up! 📝
+Breasts change a lot over time, especially during puberty, pregnancy, or even your menstrual cycle. Hormones are a big driver behind this. One side might get ahead during growth, or they might feel different sizes depending on swelling. 
 
-### How long is okay to go without a period?
-If your periods come and go or disappear for **more than 3 months** (and you’re not on birth control or pregnant), it’s a heads-up to check things out! Skipping one or two months might be fine if you’ve been stressed or sick. But long gaps could mean things like PCOS (polycystic ovary syndrome) or imbalances that need some attention.
+But if you've noticed sudden or very noticeable changes (like a lump, pain, or extreme difference), grab some courage and reach out to a nurse or doctor just to be sure it’s nothing serious. 💪🏽 Most of the time, it’s normal—your body is just being its unique self. ❤️ 
 
-If it’s been months without bleeding and you’re unsure why, it’s good to reach out to a trusted adult or try to get to a clinic when possible. 💡
+If you ever feel uncomfortable with your body, remind yourself: **you are perfect the way you are, uneven boobs and all!** You got this, wena! 🌸",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_1,3,um okay... how do i check for lumps? i don't know what to feel,"Fede, I’m so proud of you for wanting to take care of your health! 💖 Here's how you can do a breast self-check—it’s simple and only takes a few minutes:
 
-### What is heavy bleeding?
-Heavy bleeding (called menorrhagia) is when:
-- You soak through a pad or tampon **every 1–2 hours** or need extra layers like doubling up on pads. 👀
-- Clots bigger than R5 coins come out.
-- Your period lasts **more than 8 days** or makes you feel dizzy, super exhausted, or out of breath.
+1. **Find a comfy spot**: Do this while lying down or standing in front of a mirror—it’s easier when you’re relaxed.
+   
+2. **Use your fingertips**: Take three fingers (not just one!) and press gently in small circular motions to check for unusual lumps or thickened areas. Cover your entire breast, from your collarbone to the bottom of your bra line, and from the armpit to the middle of your chest. 
 
-If this is happening, it’s not safe to just wait it out. Ask yourself: Is there a neighbour, a school nurse, or someone supportive who can help you get to a medical centre? 
+3. **Check for changes**: Pay attention to anything new or unusual—like a lump that wasn’t there before, unusual pain, swelling, redness, or changes in skin texture (like it feels rough or dimpled).
 
-Take care of yourself, hey? If things feel ""not okay,"" trust that feeling and reach out. ❤️",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_1,3,"Um, if I miss like two periods from stress, should I worry? And how do I tell when bleeding's too much?","Okay, so missing about two periods because of stress can happen and isn't always something to panic about. Stress affects your hormones, which can disrupt your cycle. But, if you’ve missed two periods AND you’re sexually active, it’s wise to rule out pregnancy, chommz. If you’re not pregnant and your periods don’t come back soon, chat to someone who can help you get medical advice—just to check everything’s still okay. 💡
+4. **Don’t forget your armpit!** Lymph nodes are there, so check that area too—it’s part of your breast tissue.
 
-Now, *too much bleeding* looks like this:
-- Soaking through a pad every **hour** for several hours. 
-- Passing clots bigger than **R5 coins**.
-- Feeling weak, dizzy, or faint—that’s a sign your body might not be handling the blood loss well. 😔
+It’s natural to feel slightly uneven areas or firmness; you’re mainly looking for anything that feels different from usual. The best time to check is a few days after your period ends when your breasts are less tender.
 
-If bleeding is like that, you shouldn’t wait. Even if clinics are far, try to ask a teacher, parent, or someone near you for support. Heavy bleeding can cause serious issues like anaemia, but there’s help if you reach out. ❤️ 
+If you’re unsure, don’t panic! Visiting a nurse or clinic for a breast exam is a safe option—they’ll guide you through. 💜 You got this, chommz! Empowered and informed is how we roll! 💪🏽",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_2,1,"uh hi... i'm 18, rural, no clinic nearby. how can i get birth control? pills? online? do i need prescription?","Eish, I get that things can get a bit tough, especially in rural areas. But don’t worry, there are ways to get the help you need! 💊
 
-Got more questions? Keep asking, I’ve got your back! 🌸",srh,puberty_and_body_changes,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,1,"um... if I freeze or don't push back, is that still consent? I don't really know, I'm kinda lost","Eish, I'm so sorry you're feeling like this 💔. Let me start by saying: *freezing* or not fighting back when something happens is something a lot of people experience, and it **doesn't mean you've consented**. Consent means saying ""yes"" freely, actively, and without pressure. If you freeze, it’s usually your body’s natural response to fear, shock, or even confusion—it’s a way your brain tries to protect you 🧠. It’s not your fault. Ever. 
+For birth control pills, you'll need a prescription to get them at a pharmacy. If getting to a clinic is a hassle, consider having a telehealth call with a doctor online. Some services can give you a prescription if it's safe for you. 
 
-Consent comes with choice, and you have the right to feel safe, respected, and comfortable at all times. If you didn't actively say or show yes—even if the situation felt overwhelming or you couldn’t say no—then what happened isn’t your responsibility 💯. Sexual assault is never the victim's fault. Ever ever ever. 
+Also, some pharmacies might help with contraceptive advice, so you could check if they offer online or telephonic services. You can even ask a pharmacist about over-the-counter options like emergency contraception or condoms. Just remember, emergency contraception is for short-term use, not a regular option.
 
-Please know there are people who care and can help, even if speaking up feels scary. If you’re ready, you can type ""CONNECT"" or ""SERVICES"" for info on where to get support. You don’t have to face this alone, chommz ❤️‍🩹.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,2,"so... if I didn't resist cuz I was shocked, can I still get help or report? no nearby clinic","Yoh, my heart is heavy for you 💔. You absolutely can get help or report it—even if you didn’t resist. Freezing or being shocked is a normal reaction and doesn’t make what happened to you okay. It's not your fault, and you deserve support. 
+If you need more assistance, the Big Sis Helpline is there for you at 0800 12 84 55, or you can reach out to Childline SA. For vetted services, type SERVICES. I know this might be frustrating, but it's the safest way to get what you need!",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_2,2,"uh, kinda awkward—can abortion be done where I am? like med vs surgical, what's involved?","Yoh, I hear you, and it’s so important to get clear answers. 💐 Here's the breakdown:
 
-If you decide to report it, head to a police station and ask to speak to their Family Violence, Child Protection & Sexual Offences (FCS) Unit if they have one. It can also help to chat with someone right away, like through the Big Sis Helpline at 0800 12 84 55 (available Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or Childline SA at 116 if you're younger. 
+In SA, abortion is legal and free at public healthcare facilities for pregnancies up to 12 weeks. After that (up to 20 weeks), it requires special circumstances. After 20 weeks, it's only done if there's a major health risk to you or the baby.
 
-I know this might feel overwhelming, but remember, you’re strong and deserve all the love and care in the world 💜. For more safe options, type SERVICES to check out the Big Sis Services Directory. You're not alone in this!",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,3,"um... if I need evidence or meds and I'm out in the sticks, what do I even do?","Eish, chommie, I know this is a tough situation 😥, but there are ways to take care of yourself. Here’s what you can do:
+Here’s the vibe:
 
-1. **Evidence Collection**: If you feel ready to report, keep any clothes from the incident unwashed in a paper bag. Avoid washing up or changing clothes so the evidence stays intact. Even if you’ve already done this, it’s okay—you can still speak up! 
+🤱 **Medical abortion:**  
+- For pregnancies under 13 weeks.  
+- You take two sets of pills 💊 (one at the clinic or hospital, and the other at home). The pills stop the pregnancy and cause heavy bleeding and cramping to empty the womb—similar to a heavy period.  
 
-2. **Post-Exposure Medication**: For protection against pregnancy or STIs, consider emergency contraception and HIV prevention meds. 
+🏥 **Surgical abortion:**  
+- Done after 13 weeks, but can also happen earlier depending on your situation.  
+- A healthcare provider removes the foetus from your womb in a short procedure (usually at a clinic/hospital).  
 
-3. **Getting Support**: If you can’t reach a clinic, check if there are mobile clinics or community health workers visiting your area. You can also call Childline SA for support.
+If you're rural and need abortion services, your best bet is to call public health clinics and ask about arrangements. You *have rights* and confidentiality is key. Avoid any dodgy ""backdoor"" options—they’re unsafe and illegal.  
 
-Big Sis uses AI, so I can't give exact service details. It’s best to check the Big Sis Services Directory—just type SERVICES for vetted options. If you want to chat with a real person, type ASK. Remember, you’re not alone; I’m here for you ❤️. If you need immediate help, don’t hesitate to call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_2,4,um... so how long after can i still take the morning-after pill or HIV prevention? i'm really scared,"Eish, wena, I see you’re in a tough spot, and it’s brave of you to reach out. Here’s the lowdown:
+Want help finding nearby services? Let me know or type SERVICES ✊🏾",srh,abortion,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_2,3,"um… if I can’t travel, can they post abortion meds? is it safe to do it alone? I’m really worried.","Aweh, I totally understand your worries, and it's super important to get the right info 💖. In South Africa, if you’re thinking about medical abortion pills, they should only come from a legally registered healthcare provider. They’ll check your pregnancy stage and ensure the pills are safe for you, taking into account your medical history and how far along you are.
 
-1. **Emergency contraception**: You can get the morning-after pill within **72 hours (3 days)** after unprotected sex, and it works best the sooner you take it. There’s another option that’s effective up to **5 days**, but it's not as common.
+Please note that getting abortion meds through the post isn’t usually legal or safe. You need proper medical guidance to avoid complications. Plus, there are lots of scams out there selling fake pills, which is scary!
 
-2. **HIV prevention (PEP)**: This medication can help prevent HIV if taken within **72 hours (3 days)** after exposure. Timing is crucial!
+If you’re having trouble getting to a clinic, the Big Sis Helpline is a great resource: just call 0800 12 84 55 (Monday to Friday, 7am to 7pm; Saturday, 8:30am to 12:30pm). For young people in distress, Childline SA is also there for you. Remember to check out the Big Sis Services Directory by typing SERVICES for vetted support. Stay strong, chommie!",srh,abortion,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_2,4,"um... if I do a phone consult, can they mail the pills? and what symptoms mean I need urgent help?","That’s a good question, chommie. 💛 In South Africa, medical abortion pills should only be dispensed through a legal healthcare provider or clinic after proper assessment. Some legit telehealth services might give you a prescription and send pills, but be careful—only work with certified providers. It's risky to trust random companies online, and unsafe pills can lead to serious complications.  
 
-I can't share specific service details, but check out the Big Sis Services Directory by typing ""SERVICES"" for safe, vetted options. If you need immediate support, call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. You’re not alone, and you’ve got this ❤️.",srh,intimate_relationships_and_consent,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,1,So... I missed my period and can't reach a clinic. Can I test at home? Is that reliable?,"Eish, you can definitely test at home! Just grab a pregnancy test from your local pharmacy or shop. These tests check for a hormone called hCG that's only there if you're pregnant. 
+If you're doing a medical abortion, these symptoms mean **you need urgent medical help**:  
+🚨 Severe, constant abdominal pain (not just cramps).  
+🚨 Heavy bleeding (soaking multiple pads in an hour for more than two hours).  
+🚨 Fever, chills, or feeling unwell days after taking the pills.  
+🚨 Foul-smelling discharge.  
+🚨 Dizziness, extreme weakness, or fainting.  
 
-Remember to follow the instructions carefully, and it's best to use the test first thing in the morning for the most accurate results. If it’s positive, please chat with a nurse or doctor to confirm and discuss your options. 
+These signs could mean an infection or incomplete abortion, and you must see a doctor ASAP. Clinics are confidential and they won’t judge you, promise. 💐 If you’re considering options or need to find certified telehealth services, type SERVICES or talk to the Big Sis Helpline at 0800 12 84 55 for legit support! Keep safe and take care of yourself. ✊🏾",srh,abortion,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,2,contraception
+conv_3,1,"Um... I think I need birth control? No clinic near me, what are my options, kinda confused.","Aweh, chommie! 😌 Remember, you’re already on the right track by asking about this. In South Africa, there are many ways to access birth control, even if you’re not near a clinic.
 
-While home tests can give you quick answers, it’s super important to get proper healthcare support if you’re unsure or worried. If you need help finding services, you can check out the Big Sis Services Directory by typing SERVICES. Don't forget, you can always call the Big Sis Helpline at 0800 12 84 55 for support. You got this, chommie! 💕",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,2,"Thanks... um, how soon after a late cycle can I check? And if it says no but I'm still late, then what?","Good question, chommie! 🌟 So, you can take a pregnancy test from the *first day* of your missed period, or even a few days after. If you're unsure, waiting a week after your missed cycle often gives the most reliable result.
+You can check out pharmacies for over-the-counter options like condoms and emergency contraception. If you need a monthly pill or injection, the pharmacist might suggest getting a prescription from a doctor. 
 
-Here’s the thing: If the test says ""not pregnant"" and your period is still MIA, it could be stress, diet changes, illness, or even hormonal shifts (which are super common). But don’t ignore it—if the delay is more than a couple of weeks, test again or try your best to get to a clinic to check. 
+Private GPs can also help if you have the funds for a visit. For more options, try exploring community health resources for affordable contraceptives, or even free condoms at places like petrol stations or schools.
 
-Either way, tracking your cycles can help spot irregularities and give you a heads-up on what’s happening. Not sure how to start tracking? Let me know, and I can guide you! Otherwise, take it one step at a time, hey. Keep me posted if you need extra help! ❤️",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,3,"Um, quick thing — does it matter if I test later in the day or only morning pee works?","Testing later in the day is fine, chommie, but using your *morning pee* can give better results. That’s because your morning urine is more concentrated, which means it has higher levels of hCG (the pregnancy hormone). 🌟
+Just a heads up, I'm using AI, so I can’t share all the details you might need. It’s safer to check out the Big Sis Services Directory by typing SERVICES for vetted options. You can also reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA for additional support!",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,5,contraception
+conv_3,2,So... can I get a contraceptive tablet without seeing a doctor? Like online or from a shop?,"Aweh, chommie! Let’s break it down. You can get some contraceptives without needing a doctor's visit, but it really depends on what you need.
 
-If you test later in the day, and the result seems unclear, maybe test again the next morning to double-check. And remember, always follow the instructions on the test carefully for accurate results. If you’re still feeling unsure or need options after testing, I’m here to help! 💕✨",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,4,"Um... if there's a really faint line, does that mean I'm pregnant? I don't really get it.","Okay, chommie, breathe—this part can definitely be confusing! 💡 A faint line *can* mean you're pregnant, but it depends.
+🚶‍♀️ **Over the Counter at Pharmacies:**  
+- Emergency contraception (the ""morning after pill"") is usually available at most pharmacies without a prescription and typically costs around R80–R100. It's helpful if you’ve had unprotected sex within the last 5 days.  
+- Condoms are readily available and often free at clinics, schools, and shops.
 
-Basically, any visible line, even if it's super faint, usually means hCG (the pregnancy hormone) is in your urine, which suggests pregnancy. The faintness might be because it's still early, and your hCG levels aren’t high yet. But to be sure:
-1. Wait 2–3 days and test again (preferably morning pee for accuracy).
-2. Alternatively, visit a clinic or pharmacy for a more sensitive test if you can manage.
+⚠️ **Important:** Other contraceptives like the pill, patch, or injection usually require a prescription. It's best to have a chat with a nurse or clinic about what’s right for you.
 
-If you’re stressed out or stuck for options, chat to a health worker as soon as possible. You’ve got this—no matter the outcome, we’ll figure it out together, hey. ❤️ If you need advice on what happens next, let me know!",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
-conv_3,5,"Um... if the mark's super pale, how many days should I wait before trying another one?","Aweh, I hear you, chommz—waiting can be nerve-wracking. If the line is super faint, give it 2 to 3 days before trying again. The extra time allows your hCG levels (a hormone detected when you're pregnant) to increase, especially if it’s early days. 🌱
+If you need more help, you can call the Big Sis Helpline at 0800 12 84 55 or contact Childline SA. Remember, for vetted services, type SERVICES, or if you want to chat with a real person, type ASK. It’s crucial to access the right info safely!",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,5,contraception
+conv_3,3,Um... so can I order the regular pill online without a script? I’m kinda clueless.,"Eish, navigating contraceptive options can be a bit tricky, but I’ve got some important info for you! In South Africa, the regular contraceptive pill requires a prescription, so a healthcare provider will need to check your medical history to ensure it’s the right fit for you. There are various types of pills, and some might suit you better than others.
 
-But hey, if your next test is also faint or confusing, a clinic can give you a more accurate result. Plus, visiting a healthcare professional can offer clarity and support if you're feeling unsure about what to do next. Promise you're not alone in this, hey—I'm here if you need more advice! ❤️✨",srh,pregnancy,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access
+Ordering meds online without a prescription can be risky, so it's best to go through a pharmacy or health clinic. If you’re finding it tough to get to a clinic, some might offer teleconsultations for prescriptions. 
+
+For immediate advice, you can reach out to the **Big Sis Helpline at 0800 12 84 55** (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or **Childline SA**. 
+
+If you want to find vetted services, type **SERVICES** for more help. You’ve got this, wena! 💖",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,5,contraception
+conv_3,4,Um... so teleconsult — can I do it by phone? They'll post the pill to me?,"Tjo, big moves, chommie! 🤩 Did you know you can totally do teleconsults over the phone or online with healthcare providers in South Africa? It’s a convenient way to get help, especially if you’re in a rush or far from a clinic. You’ll usually chat with a nurse, pharmacist, or doctor who’ll go through your health history to decide if the pill is right for you. 💊 
+
+While I can’t share specific service details, check out the Big Sis Services Directory by typing SERVICES to find vetted options. I know that can be a bit frustrating, but it's a safer bet. You can also reach out to the **Big Sis Helpline (0800 12 84 55)** for support (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or connect with Childline SA for more assistance. Remember, I'm here for you! 💛",srh,contraception,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,5,contraception
+conv_3,5,"sorry, random question—my period's been weird lately? like super long and spotting? should i worry?","Eish, wena, it’s no fun when your period’s all over the place 💔. A weird or super long period could be caused by a hormonal imbalance, stress, weight changes, or even something like Polycystic Ovary Syndrome (PCOS). Spotting between periods is also common, but if this is new for you or lasting way longer than usual, it’s definitely worth paying attention.  
+
+Here’s what’s natural vs. something to check out:  
+✅ **Natural causes**: Stress, big body changes (like puberty), new contraceptives, or illnesses.  
+⚠️ **When to get checked**: Heavy spotting for weeks, periods lasting longer than 8 days, or symptoms like dizziness, severe pain, or passing large clots.  
+
+Try tracking your symptoms in an app or notebook to make sense of what’s happening—you'll be ready to chat to a nurse or doctor if it continues. If you're needing extra help, type **SERVICES** for reliable clinic options or ring the **Big Sis Helpline at 0800 12 84 55**.
+
+You’ve got this! 💪",srh,menstruation_and_cycle_issues,shy,knowledge_barrier,female,18,,The user is in a rural area with no clinic access,5,contraception

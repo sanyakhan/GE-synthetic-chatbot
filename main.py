@@ -23,7 +23,7 @@ def weighted_choice(distribution_dict):
 
 
 # generate user message (GPT)
-def generate_user_message(scenario, history):
+def generate_user_message(scenario, history, topic_switch_to=None):
     # [1] freeform prompt: inject extra instruction if provided
     free_form = scenario.get('free_form')
     free_form_line = f"\nAdditional instruction: {free_form}" if free_form else ""
@@ -34,6 +34,13 @@ def generate_user_message(scenario, history):
         "\nIMPORTANT: Your tone is 'confused' — actively seek clarification. "
         "Say things like 'wait I don't get it', 'can you explain?', ask the chatbot to clarify what they mean."
     ) if tone == "confused" else ""
+
+    # mid-convo topic switch directive
+    topic_switch_directive = (
+        f"\nIMPORTANT: Abruptly change the subject to '{topic_switch_to}'. "
+        "Do NOT continue the previous topic. Start a completely new question about this new topic, "
+        "as if you just thought of something else entirely. Make it feel natural but sudden, like a real person texting."
+    ) if topic_switch_to else ""
 
     response = client.chat.completions.create(
         model="gpt-5-mini",
@@ -70,7 +77,7 @@ Scenario:
 
 Conversation so far:
 {history}
-Respond as the USER.{confused_directive}
+Respond as the USER.{confused_directive}{topic_switch_directive}
 
 Behavior guidance:
 - "shy" → indirect, hesitant, not fully explicit
@@ -116,17 +123,45 @@ def call_chatbot(message, history):
 
 
 # run one conversation
-def run_conversation(scenario, n_turns, convo_id):
+def run_conversation(scenario, n_turns, convo_id, switch_topic=None, switch_at_turn=None, subcategory_distribution=None):
     history = []
     rows = []
+    current_scenario = dict(scenario)
+
+    # resolve which turn and which topic to switch to
+    switch_turn = None
+    new_subcategory = None
+    if switch_topic and n_turns >= 2:
+        # resolve turn (0-indexed internally)
+        if switch_at_turn is not None:
+            switch_turn = max(1, min(int(switch_at_turn) - 1, n_turns - 1))
+        else:
+            switch_turn = random.randint(1, n_turns - 1)
+
+        # resolve new topic
+        original = current_scenario.get("subcategory")
+        if switch_topic == "random":
+            candidates = [k for k in (subcategory_distribution or {}) if k != original]
+            new_subcategory = random.choice(candidates) if candidates else original
+        else:
+            new_subcategory = switch_topic
+
+        print(f"[{convo_id}] Topic switch at turn {switch_turn + 1}: '{original}' → '{new_subcategory}'")
 
     print(f"\n=== Starting Conversation {convo_id} ===")
 
     for turn in range(n_turns):
         print(f"[{convo_id}] Turn {turn+1}/{n_turns}...")
 
+        # inject topic switch at the designated turn
+        topic_switch_directive = None
+        if switch_turn is not None and turn == switch_turn:
+            topic_switch_directive = new_subcategory
+            current_scenario = dict(current_scenario)
+            current_scenario["subcategory"] = new_subcategory
+
         # user — pass history of previous turns only
-        user_msg = generate_user_message(scenario, history)
+        user_msg = generate_user_message(current_scenario, history, topic_switch_to=topic_switch_directive)
         print("USER:", user_msg)
 
         # [5] call bot BEFORE appending current user msg to history
@@ -144,14 +179,16 @@ def run_conversation(scenario, n_turns, convo_id):
             "turn": turn + 1,
             "user_message": user_msg,
             "bot_response": bot_msg,
-            "high_level_category": scenario.get("high_level_category"),
-            "subcategory": scenario.get("subcategory"),
-            "tone": scenario.get("tone"),
-            "barrier": scenario.get("barrier"),
-            "gender": scenario.get("gender"),
-            "age": scenario.get("age"),
-            "edge_case": scenario.get("edge_case"),
-            "free_form": scenario.get("free_form"),
+            "high_level_category": current_scenario.get("high_level_category"),
+            "subcategory": current_scenario.get("subcategory"),
+            "tone": current_scenario.get("tone"),
+            "barrier": current_scenario.get("barrier"),
+            "gender": current_scenario.get("gender"),
+            "age": current_scenario.get("age"),
+            "edge_case": current_scenario.get("edge_case"),
+            "free_form": current_scenario.get("free_form"),
+            "topic_switched_at": switch_turn + 1 if switch_turn is not None else None,
+            "original_subcategory": scenario.get("subcategory"),
         })
 
     return rows
@@ -197,15 +234,18 @@ def main():
 
     turns_per_convo = resolve_turns(n_turns_config, n_convos)
 
-    # [3] topic_change: null | "random" | "contraception" | ["contraception", "stis", ...]
-    topic_change = settings.get("topic_change", None)
+    # mid_convo_topic_change: {topic: null|"random"|"stis", at_turn: null|int}
+    mid_convo_cfg = settings.get("mid_convo_topic_change") or {}
+    switch_topic = mid_convo_cfg.get("topic", None)
+    switch_at_turn = mid_convo_cfg.get("at_turn", None)
 
     print("\n--- SETTINGS ---")
     print("Selection:", args.selection)
     print("Conversations:", n_convos)
     print("Turns per convo:", turns_per_convo)
-    if topic_change:
-        print("Topic change:", topic_change)
+    if switch_topic:
+        at_turn_label = f"turn {switch_at_turn}" if switch_at_turn else "random turn"
+        print(f"Mid-convo topic change: → '{switch_topic}' at {at_turn_label}")
 
     all_rows = []
 
@@ -216,22 +256,16 @@ def main():
 
         for i in range(n_convos):
             scenario = dict(base_scenario)
-
-            # [3] apply topic_change for manual mode
-            if topic_change == "random":
-                scenario["subcategory"] = weighted_choice(
-                    config.get("distributions", {}).get("subcategory", {})
-                )
-            elif isinstance(topic_change, list):
-                scenario["subcategory"] = topic_change[i % len(topic_change)]
-            elif isinstance(topic_change, str):
-                scenario["subcategory"] = topic_change
-
             convo_id = f"conv_{i+1}"
             print(f"\n--- SCENARIO {convo_id} ---")
             print(scenario)
 
-            rows = run_conversation(scenario, turns_per_convo[i], convo_id)
+            rows = run_conversation(
+                scenario, turns_per_convo[i], convo_id,
+                switch_topic=switch_topic,
+                switch_at_turn=switch_at_turn,
+                subcategory_distribution=config.get("distributions", {}).get("subcategory", {})
+            )
             all_rows.extend(rows)
 
     elif args.selection == "random":
@@ -240,18 +274,9 @@ def main():
             raise ValueError("distributions required for random mode")
 
         for i in range(n_convos):
-            # [3] topic_change in random mode
-            if isinstance(topic_change, list):
-                subcategory = topic_change[i % len(topic_change)]
-            elif isinstance(topic_change, str) and topic_change != "random":
-                subcategory = topic_change
-            else:
-                # "random" or null → resample each conversation
-                subcategory = weighted_choice(distributions["subcategory"])
-
             scenario = {
                 "high_level_category": weighted_choice(distributions["high_level_category"]),
-                "subcategory": subcategory,
+                "subcategory": weighted_choice(distributions["subcategory"]),
                 "tone": weighted_choice(distributions["tone"]),
                 "barrier": weighted_choice(distributions["barrier"]),
                 "gender": None,
@@ -264,7 +289,12 @@ def main():
             print(f"\n--- SAMPLE SCENARIO {convo_id} ---")
             print(scenario)
 
-            rows = run_conversation(scenario, turns_per_convo[i], convo_id)
+            rows = run_conversation(
+                scenario, turns_per_convo[i], convo_id,
+                switch_topic=switch_topic,
+                switch_at_turn=switch_at_turn,
+                subcategory_distribution=distributions.get("subcategory", {})
+            )
             all_rows.extend(rows)
 
     output_file = f"output_{args.selection}.csv"
