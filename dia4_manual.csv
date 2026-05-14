@@ -1,0 +1,77 @@
+conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form,topic_switched_at,original_subcategory
+conv_1,1,uh... quick question: is abortion legal here? i thought you always needed parental permission? kinda lost,"Yoh, there’s a lot of misinformation out there, but let’s set the record straight: Abortion is legal in South Africa, and you don’t need parental permission, no matter your age! 
+
+Here’s the scoop:
+- If you’re up to 12 weeks pregnant, you can have an abortion for any reason—no questions asked.
+- From 13 to 20 weeks, it’s still possible, but the doctor will check if certain conditions are met, like health risks.
+- After 20 weeks, it’s only allowed in specific situations, such as if your life is in danger.
+
+Remember, your care is confidential. The clinic staff are there to keep your info private. If you’re feeling overwhelmed, don’t hesitate to chat with a professional. 
+
+You can call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA for support. For more services, just type SERVICES, as I can’t share specific details. I know it’s a bit frustrating, but this is the safer choice.",srh,abortion,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,2,um… so I really don’t need my parents? and you can’t give clinic names in my city?,"Hey wena, just a heads up—**you don’t need your parents’ permission** to get an abortion in South Africa! The Choice on Termination of Pregnancy Act allows you to access safe and legal abortion services on your own, no adult approval needed. If you want some support, you can take an adult you trust with you, but that's totally up to you! 💪
+
+I can't share specific clinic names or details here because keeping your info private is super important. Type **SERVICES** to check out our vetted services directory—it’s a safe way to find the help you need. You can also reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA for support. You've got this, chommie! 🌟",srh,abortion,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,3,"uh, so like, if I'm 18 will they call my parents or show up on my insurance? kinda scared","Eish, I hear you—the fear is real when you’re trying to keep things private. But don’t stress too much, this is how it works:
+
+- **They won’t call your parents**, no matter your age (this applies when you’re 18 too). The info you share at the clinic is confidential—it’s protected by law, and the healthcare workers are trained to respect your privacy. You can go alone even as a teen, no drama. 😉
+
+- As for insurance, if you’re using a medical aid under a parent’s plan, it’s possible that the visit might show up on the account as a general procedure or consultation. If that’s a problem, you can choose to pay out of pocket. Public clinics and government hospitals often provide services for free, but the wait time can be longer. 
+
+For extra privacy, consider going to a public clinic or asking directly about payment options. It’s your choice how much you share! Keep calm, chommie—you’re doing what’s best for YOU ❤️.",srh,abortion,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,4,"oh wait—contraception help? how do I choose between pill, implant, IUD? kinda clueless","Fede! Choosing contraception can feel overwhelming, but don't stress—you're not alone. 😊 Here’s a quick breakdown to help you decide:
+
+### **The Pill** 💊  
+- **How it works**: You take it daily at the same time. It prevents ovulation.  
+- **Pros**: 99% effective when used correctly, helps control periods, very discreet.  
+- **Cons**: Forget to take it? It won’t work. You’ll need backup (like condoms) for 7 days if you miss a dose.  
+
+### **The Implant** 💪  
+- **How it works**: A small rod goes under the skin of your arm and releases hormones for up to 3 years.  
+- **Pros**: Super low maintenance—no daily reminders! 99% effective, long-lasting.  
+- **Cons**: The fitting/removal requires a small procedure, which might cause discomfort. 
+
+### **The IUD** 🌀  
+- **How it works**: A tiny ""T-shaped"" device inserted into your uterus. Comes in hormonal or copper versions.  
+- **Pros**: Lasts 5–10 years, no need to think about it daily, and hormone-free options are available.  
+- **Cons**: Can be uncomfortable during insertion/removal (but it's quick!). Tampons or sex might shift it sometimes.
+
+### **How to Decide**  
+- **Routine**: If you're forgetful, implants or IUDs are better because they're ""set-it-and-forget-it.""  
+- **Hormones or not**: Want hormone-free? Check out the **copper IUD**.  
+- **Other factors**: If you want help managing heavy periods, hormonal options (pill, implant, or hormonal IUD) could assist.   
+
+Pop by a **clinic or family planning centre**, and they’ll chat about your lifestyle, body, and goals to find the best fit for you. Pair your choice with condoms for **STI protection** too, okay? ❤️ You're empowered to choose what works for YOU! 🌟",srh,contraception,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,5,"um… if I get that arm thing, can they take it out early? will it mess with having kids later?","Yoh, wena, good question! Let’s break it down:
+
+### **Can they take it out early?**
+- Yes, absolutely! The implant (a.k.a. the arm thing) can be removed at **any time** by a healthcare provider. Whether it's after a few months or years, just pop into the clinic if you decide you don't want it anymore. 😊  
+- The removal procedure is quick and simple—similar to getting it put in. You can go back to using other options or no contraception at all, depending on your choice.
+
+### **Will it mess with having kids later?**
+- Nope! The implant doesn’t affect your future fertility. Once it’s removed, your body stops receiving the hormone, and you can usually start ovulating again **within a month or so**.  
+- That means you can try for children when you're ready—no long-term effects! 🌸  
+
+If you’re still deciding, pop into a clinic to chat with a nurse or doctor—they can explain everything properly, including removal options. You’ve got options, chommie! 🌟",srh,contraception,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,6,"wait, so after removal can I get pregnant right away? like same month or do I have to wait longer?","Yoh, straight to the point! Here's the deal: 🌟
+
+Once the implant is removed, your body’s natural cycle can start up again almost immediately. Most people start ovulating within **a few weeks to a month** of removal, meaning you could potentially fall pregnant as early as that next cycle. 😅
+
+If you're looking to delay pregnancy after removal, start using another form of contraception **right away**—like the pill or condoms—to stay protected. But if you *are* hoping to conceive, just remember that everyone's body is different; a few people might take slightly longer for their cycles to regulate, but there's no major waiting period. 💕
+
+So, basically:
+- Yes—you *can* get pregnant very soon after removal. 👶  
+- Make sure to switch to condoms or another method ASAP if you're not ready for a baby!   
+
+Pop into a clinic or chat with a nurse—they’ll help you navigate the next steps. You’re sorted, chommz! 💖",srh,contraception,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion
+conv_1,7,"wait, dumb question — if it's removed and I have sex a week later, can I get pregnant?","Hayibo, not a dumb question at all! Here’s the tea: 🌟
+
+**Yes**, you can definitely get pregnant a week after the implant is removed. Once the implant is out, your body can start ovulating again pretty quickly (typically within **days to weeks** for most people). If you’re having unprotected sex during that time, there’s a chance for sperm to meet the egg and boom—pregnancy may happen. 👶
+
+Remember: **sperm can hang out in your body for up to 5 days** after sex, waiting around for ovulation. So, even if your ovulation kicks in a few days later, pregnancy is still possible.
+
+### What to do 🔒:
+- If you're *not* ready for a baby, use condoms or start another birth control method **immediately after removal**.
+- If you're trying to conceive, a week post-removal could definitely be a fertile time, so go ahead if you're ready! 🌸
+
+There’s no such thing as a dumb question when it comes to this stuff—stay curious! 😍",srh,contraception,neutral_just_curious,knowledge_barrier,female,18,misunderstands agent info,user is from a urban community,4,abortion

@@ -1,0 +1,144 @@
+conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form,topic_switched_at,original_subcategory
+conv_1,1,"I'm 36, live miles from any clinic, think I might be pregnant... can't tell anyone.","Hey, chommie! Just know you’re not alone in this. Here’s a gentle guide for you:
+
+1. **Confirm your pregnancy** 🧡  
+   Grab a home pregnancy test from a pharmacy or store. It's best to do it when your period’s at least a week late. Read the instructions carefully.
+
+2. **If it’s positive and you’re exploring options** 🩺  
+   In SA, you can legally access safe abortion services up to 20 weeks. Confirming your pregnancy and its stage is super important. Many government clinics offer free services, but I know getting there can be tricky. Private clinics also offer medical abortions, though they can be pricier. 
+
+3. **Your privacy matters** 🔒  
+   Health workers must keep your info confidential. You don’t need permission from anyone.
+
+If you need support or help finding services, type SERVICES to access our vetted directory. Frustrating, I know, but it’s a safer option. You can also reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA for support. I'm here for you, always! 💕",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,2,"um actually… maybe i'm 26 not 36? sorry. and i’ve got no car, waaay out here.","Eish, chommie, I hear you! Being in a remote area can feel tough, but you’re definitely not alone. Here’s what you can do:
+
+First, confirm your pregnancy with a home test (around R50 at shops). If that’s tricky, maybe ask someone you trust to help you out.
+
+You can reach out for advice over the phone or through WhatsApp with a helpline that knows about pregnancy concerns. They can help guide you without needing to travel right away.
+
+If you need services like safe abortion or prenatal care, government clinics offer free options. Just remember, your privacy is important to them.
+
+For support, call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or check out Childline SA. It’s cool to talk and get advice. 
+
+It might feel like a lot, but you’re stronger than you think! If you want to explore more vetted options, just type SERVICES. I’m here for you! 💕",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,3,"can i order abortion pills online? no car, scared family will find out...","Eish, I totally understand why you’re feeling anxious and need some discreet options. In South Africa, there are safe ways to access abortion pills, known as a medical abortion, but be careful with ordering online—there are some sketchy sellers out there who might put your health at risk. 
+
+A safer option is to check out the vetted services in the Big Sis Services Directory. Just type SERVICES to access it. This can help you find trustworthy options for consultations and support. I know it can be frustrating, but using SERVICES is a much better choice! 
+
+If you need someone to talk to, you can call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. Remember, it’s your choice, and you deserve support. You’ve got this! 💛",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,4,um actually… quick q — what contraception can I use if I can't make it to a clinic?,"No stress, chommie! There are a few options for contraception if getting to a clinic isn’t practical:  
+
+1. **Condoms** 🛡️  
+   They’re easy to find at supermarkets, spaza shops, petrol stations, and pharmacies—and they protect against pregnancy *and* STIs. Many places even give them out for free, like clinics or health departments.
+
+2. **Birth control pills** 💊  
+   You can buy them over the counter at most pharmacies without a prescription if you’re 16 or older. They range between R80–R300 depending on the type. Just make sure you ask how to use them properly—they need to be taken at the same time every day to work best.
+
+3. **Emergency contraception** ⚡  
+   If you’ve already had unprotected sex or are worried about contraception failure (like a condom breaking), you can get the morning-after pill at most pharmacies. It’s effective up to 72 hours (but earlier is better!) and doesn’t need a prescription if you're 12 or older.
+
+If you'd like more info about your options or to chat about long-term solutions for the future, let me know. You’ve got choices! 😊",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,5,um quick—are morning-after pills the same as abortion pills? can i buy them at a shop without ID?,"Ah, I hear you! No, morning-after pills and abortion pills are not the same thing, chommie. Let me break it down:
+
+- **Morning-after pills** prevent pregnancy after unprotected sex by delaying ovulation (when your egg is released). They don’t end an existing pregnancy—they just stop one from starting. You can buy them at most pharmacies for about R80–R100 without needing a prescription or ID, as long as you're **12 years old or older**. You should take them as soon as possible (within 72 hours) for them to work best.
+
+- **Abortion pills**, on the other hand, are used to end an existing pregnancy, usually in the first 12 weeks. These must be given under medical supervision and are not available over the counter. They require you to visit a clinic or a doctor; self-managed abortions with unverified online pills can be unsafe.
+
+If you’re unsure and need more guidance, feel free to type SERVICES for trusted places near you. You’ve got options! 💛✨",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,6,"Um, if my period's late can the morning-after still help? no car, too scared to go out.","Hey chommz, I get that you’re feeling anxious, but the morning-after pill only works if you take it before ovulation—meaning before your egg is released during your cycle. If your period is already late, you might *already be pregnant,* and the morning-after pill won’t work anymore. It **prevents pregnancy** but cannot end an existing one. 💊
+
+If you think you might be pregnant, you can take a **pregnancy test** to check. You can buy one at a pharmacy or spaza shop, usually for around R30–R50. You don’t need ID to get it. Testing will help you know for sure so you can plan your next steps.
+
+If you need information about abortion pills or other discreet services, type SERVICES for options near you—there’s always support available, even if you don’t have transport. Take deep breaths, wena—you’ve got this! ❤️🌱",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_1,7,um… could I order a pregnancy test online and have it delivered quietly? i'm worried ppl at home will notice,"Eish, I get it, wena! If you're looking for privacy around a pregnancy test, you can definitely order one online and have it delivered to your door. It usually comes in plain packaging, so your business stays your business. Delivery fees differ, but it's worth it for the peace of mind.
+
+If online shopping isn’t your vibe, maybe ask a trusted friend to help you grab one. And remember, if you wanna chat about how you’re feeling or what to do next, you can call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. 
+
+For more info on services, type SERVICES, or if you wanna speak to a real person, type ASK. You're not alone in this, chommie! 💛",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,1,"Um hi I'm 36, live way out in the country, can't tell anyone. Can I still get an abortion?","Eish, I get that this whole situation can be super overwhelming. Just know you have options when it comes to abortion in South Africa—it’s legal for up to 20 weeks, no matter your age or if you want it private. Here’s the gist: 
+
+- **Before 12 weeks**: No need to explain why. You can choose between taking pills (medical abortion) or a clinical procedure. 
+- **13–20 weeks**: A doctor will check your health and reasons before proceeding.
+
+If you're in a rural area, telemedicine could be a solid option, especially if you're under 9 weeks—you can sort out an at-home abortion with the right services. 
+
+I can’t provide specific details, as I use AI and can't guarantee accuracy. But you can check out the Big Sis Services Directory by typing SERVICES for vetted options. If you need immediate help, reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA. Take care, chommie! 💚✨",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,2,"Um, also... I might be 28? sorry, I get mixed up. about 6 weeks maybe?","Aweh, I love that you’re asking these questions—it shows you’re taking control of your situation! If you think you’re about 6 weeks pregnant and considering an abortion, know that there are options available. At this stage, a medical abortion (using pills) can usually be done and is often the safest choice early on.
+
+As you’re in South Africa, you don’t need to explain your reasons for seeking an abortion if you’re under 12 weeks pregnant. Just make sure to connect with a legal, trusted provider—stay away from dodgy ads, chommie! 
+
+I can’t share specific service details because I use AI and it’s not always reliable. But if you type SERVICES, you can access a directory with vetted options. If you need immediate support, you can call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA. Remember, you’re not alone in this! ✨",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,3,"Um... I'm probably mid-30s? can't remember. Can abortion pills be mailed to a tiny town? No car, scared.","Eish, I hear you, and it's great that you're looking for answers! In South Africa, there are safe and legal ways to get help without having to go far. 🌼 
+
+If you're under 9 weeks pregnant, telemedicine could be an option for you. You can reach out to the **Big Sis Helpline** at **0800 12 84 55** for support and guidance. They can connect you with trusted services that can help you with your options.
+
+Just a heads up—stay clear of anyone offering pills without proper medical advice, as it can be really risky for your health. I know this might be frustrating, but check the **Big Sis Services Directory** by typing SERVICES for listed services you can trust. You’re not alone in this! 🌸💖",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,4,Oh uh random Q about contraception: can I get the injection at a rural clinic without people noticing?,"Shap, I get the need for privacy, chommie! The contraceptive injection (Depo-Provera or Nur-Isterate) is definitely available at most rural clinics, and it's low-key to get—no one will know unless you tell them. 👍🏽
+
+The process is quick: you just pop in, confirm you want the injection, and the nurse will give it to you in your arm or bum cheek, and you’re sorted for 8 to 13 weeks. That’s one of the reasons it’s such a popular choice—it’s discreet, and you don’t have to worry about taking a pill daily or keeping anything at home.
+
+If you want to keep things on the down-low, you can even say it’s for managing periods (some girls use the injection to help with heavy or painful cycles). Clinics are there to help you feel comfortable, and healthcare staff will respect your privacy. 💉✨ Let me know if you’ve got more questions!",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,5,Um... will they ask why I want it? I can't say sex stuff. What can I tell them?,"Tjo, I totally get how awkward that can feel! Don’t stress—nurses won’t demand an explanation for getting contraception. You can just say you want to prevent pregnancy, and that’s enough. 💯  
+
+If you don’t feel comfortable mentioning anything related to sex, you can always say it’s to regulate your period or help with cramps. The injection is often used for those reasons too, so you’re not lying. 😉
+
+Clinics are meant to be judgement-free zones, and your body and reproductive health are YOUR business. Nurses will likely ask some basic stuff, like when your last period was or if you’re taking meds, so they can make sure you’ll be safe. But no need to overshare unless you want to.
+
+Remember, you’re the boss of your story—take your time, breathe, and just say what you’re comfortable with! You’ve got this. 💪🏾✨",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,6,"Do they need ID? I live far out with no transport, and I'm scared neighbours will notice.","Hayibo, you’ve got practical worries, hey? Let me unpack it for you. 👌🏾 
+
+Most clinics won’t demand ID if you’re just collecting contraception—it’s not a legal requirement for services like the injection. They mostly ask for details like your name and age to keep track in their system, but you can still get help even without an ID. You won’t be turned away. 💉✨ 
+
+As for privacy, clinics are careful about this—you don’t have to give unnecessary info, and what you share stays confidential. If you’re really worried about running into neighbours, you can try visiting the clinic at off-peak hours (like early mornings or lunch breaks) when it’s quieter.
+
+If transport’s a big challenge, look into outreach services. Some rural or government clinics have mobile health teams that visit communities—they could even come near your area. You can call ahead to check when they’ll be nearby.
+
+Your health matters, wena—you deserve care without feeling judged or exposed! 🌼💪🏾",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_2,7,"Um... if I go, will my name be on a public list? Can someone else pick it up for me?","Yoh, I feel you! Privacy is serious business when it comes to contraception. 🌸 Let me break it down:
+
+No, your name won’t be put on any public list at the clinic. Your personal info—like name, age, and anything you share—is kept between you and the healthcare team. It's confidential, baba. 🔒 That means you’re safe from neighbours or anyone finding out without your permission.
+
+Unfortunately, someone else can’t pick up contraception or get the injection for you—it has to be done on-site because the nurse needs to give it to you directly and check that it's safe for your body (e.g., any health conditions they should know about).
+
+If you’re worried about being seen, maybe try calling the clinic first to ask when it’s less busy. Some places even have specific ""youth-friendly"" hours that help make things more discreet.
+
+You’ve got every reason to feel empowered about taking care of your health, chommie! Keep asking questions—I’m here! 🌼💪🏾",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,1,"Hi... I'm 36, live way out in the country. Think I'm pregnant, scared, can't tell anyone. Is abortion possible?","Hey wena, I can feel your worry, but remember, you’re not alone. Abortion is still a choice for you, even if you’re in a remote area. If you think you’re under 12 weeks pregnant, you can have an abortion without needing to explain—it's your body and your choice. For those between 13 to 20 weeks, there are still options, but a healthcare provider will have some criteria to check.
+
+Telemedicine might be a solid option for early pregnancies (under 9 weeks), where you can have a consultation and get meds delivered. If that’s not possible, visit a nearby clinic; abortions are free at government clinics. If you need support, you can reach out to Childline SA or the Big Sis Helpline at 0800 12 84 55. 
+
+For specific services, type SERVICES to access the vetted options. I know this is a lot, but it’s the safer route. Stay strong, and you’ve got this! 💛",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,2,"Um... I'm 35? Actually maybe 36. I live miles from any clinic, can't get there. What now?","Eish, chommie, I know it can be tough when you're far from services, but don't stress — there are still ways to get help! If you’re less than 9 weeks into your pregnancy, telemedicine might be an option. You can chat with a healthcare provider over the phone or WhatsApp, and they can arrange to send you medication. It’s safe and confidential. 🍃
+
+If you're further along and need more support, you may still need to visit a clinic at least once. If that feels impossible, remember that you’re not alone, and I’m here for you. For more assistance, type SERVICES to find vetted services that can help you. And if you need someone to talk to now, the Big Sis Helpline is available at 0800 12 84 55 or you can reach out to Childline SA. You’ve got this, wena! 💖",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,3,"Sorry, I said 35 then 36—I'm confused. How do I know how far along? No transport here.","Yoh, big respect for reaching out, choma. Here’s how to figure out how far along you might be—you count the weeks from the **first day of your last period** 🗓, not from the day you missed your period or took the pregnancy test. 
+
+If you don’t remember the exact date or your periods are irregular, it might be tricky to calculate. Some home pregnancy tests can estimate roughly how many weeks pregnant you are, and those are often available at pharmacies or shops nearby (or ask someone you trust to grab one!).
+
+If that’s not an option, you’d need a blood test or ultrasound at a clinic to confirm. I know getting to a clinic feels impossible right now, but let me know if you’d like advice on reaching mobile health services or telemedicine—it’s designed for situations like yours! You're doing the best you can, and that matters. 💙",srh,abortion,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,4,"Um, random Q — how do I get an IUD or implant out here? I don't really know what they do.","IUDs and implants are great long-term options for contraception! They work by either stopping sperm from fertilising eggs or preventing eggs from attaching to the womb. It's super handy since you won’t have to remember daily pills.
+
+An IUD is a small T-shaped device inserted into your uterus, lasting up to 5–10 years. The implant is a thin rod placed in your upper arm, releasing hormones and lasting about 3 years. Both methods are 99% effective!
+
+For removal, it's best to visit a clinic where professionals can assist you safely. I know that finding a nearby clinic might be tricky, but you can get free removal services at some places.
+
+If you need more info without travelling, check out the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or consider Childline SA. Also, for a trusted list of services, type SERVICES! Shap!",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,5,Uh... does removing the arm thing hurt a lot? Can a clinic nurse do it or nah? I got no transport money.,"Tjo, I feel you, chommie—medical stuff can sound intimidating! Removing an implant is pretty chilled, though, and yes, clinic nurses are trained to do it. They use a local anaesthetic, so the area around your arm will be numbed before they remove it. You’ll feel very little—maybe a bit of pressure, but not major pain. Some people say it’s quicker and easier than when it’s first put in. 💪🏾
+
+For transport challenges, it’s worth knowing that public clinics in SA often offer these services for free. You could also check if any mobile health services operate near you—they might be able to come to your area. Try asking a trusted friend, relative, or community leader if they can help with a lift. And don’t forget, if money’s tight, some organisations offer assistance—if you type **SERVICES**, I can help you find practical options closer to home. You've got this, wena! ✨",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,6,Can a nurse come to my village to remove it? I can't travel. I'm 34? No 36... sorry.,"Aweh chommie, I get it—being stuck without transport is a real hassle, but you still deserve care! 🌻
+
+Big Sis uses AI, so I can’t share specific service details, and that might be frustrating. But don’t stress, you can check out the Big Sis Services Directory for vetted services by typing SERVICES. It's the safer option.
+
+In the meantime, you can reach out to the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or contact Childline SA for support. 
+
+Remember, your situation is valid, and there are people who want to help you feel safe and sorted! 💜",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion
+conv_3,7,Um... do mobile clinics ever come out to small villages? I have no money or lift.,"Eish, I totally hear you—it’s tough not being able to travel to a clinic. The good news is that South Africa does have mobile health clinics that aim to reach rural and underserved areas, and they may visit your village. 🚐 These clinics occasionally offer services like contraception advice, IUD or implant removal, STI testing, HIV treatment, and general healthcare. They’re especially helpful for people who can’t easily travel.
+
+To find out if one visits your area:
+- **Ask your local clinic** (or nurse if you have access)—they usually coordinate with mobile units.
+- **Check with community centres or schools** nearby; sometimes they know when mobile clinics will come to your area.
+- You can also **call health helplines** like the Big Sis Helpline (0800 12 84 55), which offers free advice and might help you find options.
+
+No one should go without help, no matter where they live—let me know if you want more support arranging something, shap! 💚",srh,contraception,fear_shame_stigma,social_support_barrier,female,36,gives agent conflicting information about self across turns,user is from rural area,4,abortion

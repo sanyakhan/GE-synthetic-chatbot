@@ -1,0 +1,513 @@
+conversation_id,turn,user_message,bot_response,high_level_category,subcategory,tone,barrier,gender,age,edge_case,free_form,topic_switched_at,original_subcategory
+conv_1,1,I'm 14 and don't have insurance — can I get tested for STIs for free? where?,"Hey, chommie! Just a heads up: in South Africa, you can get free STI testing and treatment at public clinics and hospitals. It’s all confidential, and they won’t judge you. 💛
+
+If you want to find a clinic, check out the Big Sis Services Directory by typing SERVICES for vetted options. I know it can be frustrating, but it's the safest way to find the help you need. If you’d rather chat with someone right away, you can always type ASK to reach a real person.
+
+Remember, you can also call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. You got this! Stay empowered and healthy! 😊",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,2,Can I go to a clinic without my parents' okay? I'm 14 and broke.,"Yoh chommie, I hear you! The good news is, in South Africa, you don’t need your parents’ permission to visit a public clinic at 14—even for sexual health services like STI testing, contraception, or pregnancy support. 💯 It's your right under the law to access free healthcare services confidentially. No money, no problem; public clinics provide these services at no cost. 😊
+
+When you go, just explain what you need, and they’ll guide you through it. If you're nervous, some clinics have counsellors who are trained to help young people feel more comfortable. Also, clinic staff cannot tell your parents unless you give them permission—that’s your choice.
+
+If you want help finding a nearby clinic, type SERVICES, and I’ll use my Big Sis Directory to sort you out with details. You’ve got this, wena! 💪💖",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,3,Do I need ID or proof of age? Also will they test/treat me same day?,"Alright, chommie, here's how it works: 
+
+Most public clinics will **ask for an ID or proof of age**, but they won’t turn you away if you don’t have it. If you don't have an ID card or birth certificate on you, they may still help you, especially for urgent concerns like STI testing or contraceptives. Just explain your situation when you arrive. If you do have an ID, it’s good to take it along if you can.
+
+✨ As for testing or treatment on the same day, that depends on the clinic and the services they offer. Many clinics can test you for STIs right away—be ready to answer a few questions about your health and sexual history so they know how best to help. Treatment may happen at the same time if they can, or they might book you for a follow-up appointment if needed.
+
+If you're not sure where to find a clinic nearby, type SERVICES for help with the search! You’ve got this, chommz! 💛",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,4,"Okay cool. If they can’t do it right away, will they still give meds later for free?","Yes, chommie! 🌟 If a public clinic finds that you need medication after testing—whether for an STI or anything else—they will provide it for free. That’s part of their job, no matter your financial situation. 💊  
+
+If the clinic can’t treat you right then, they’ll give you a date for a follow-up or refer you to another clinic or hospital to get what you need. Just make sure you go to the follow-up and finish any treatment they prescribe. You’ll want to avoid complications or spreading anything else! 
+
+Remember: If something doesn’t feel 100% clear while you’re there, don’t be afraid to ask questions until you understand. You’ve got the right to know what’s happening with your body and your health! 💖 Keep shining, wena!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,5,How long till results? Will they call or do I have to go back? btw I'm 14.,"Aweh, at 14, you’re totally allowed to get tested without your parents, so don’t stress about that. 😎 About your results—how long they take will depend on what test you’re getting done. Here’s a quick breakdown:  
+
+- **HIV tests**: If they do a rapid test (finger prick), you’ll get your results **right there**—it takes about 10–20 minutes. 🩸  
+- **STI tests** (like for gonorrhoea or chlamydia): These might take **a week or so**, as the clinic often sends samples to a lab.  
+- **Pregnancy tests**: These are usually ready **same-day** or within a few minutes.  
+
+Most clinics will ask you to come back in person for results, especially for STIs, because they want to chat about any treatment or next steps you might need. Some clinics might send results by SMS or phone call, but that’s less common, so it’s best to ask them when you’re there. 🧪  
+
+If you need any extra advice or have more questions, just shout! You’re doing such a great job taking care of yourself—proud of you, wena! 💪💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,6,"If they tell me to return, will meds or the visit cost anything? I'm 14 and can't afford transport.","Eish, I get it, chommie — transport costs can be a real pain! Just a reminder: if you need to visit a public clinic, those services are usually **free**, no charge for visits, tests, or meds. 🚫💸 If getting there is a hassle, peep if the clinic can recommend a closer spot or a mobile service. 
+
+You could also chat with someone you trust, like a fam member or a school counsellor, to sort out transport or get some advice. 🚍💬 
+
+I know it can be frustrating, and while I can’t share specific service details, check out the Big Sis Services Directory by typing SERVICES for safe, vetted options. You can also hit up the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA if you need support. You're doing great for your health, and I'm here cheering for you! 💛",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_1,7,"Also, do clinics run mobile units or school nurse visits? Got no bus money.","Yes, wena, some clinics do run mobile health units or outreach programmes! These vans or teams visit communities, including rural areas or schools, to provide basic sexual and reproductive health services. 🚑 They can offer things like contraceptives, pregnancy tests, STI testing, and even HIV counselling. You might need to check with your nearest public health clinic if they have mobile units operating in your area. Sometimes schools partner with these services or have a school nurse who can refer you to help. 
+
+You can also ask your school if they have links to any government or health programmes, or you could bring it up carefully with a teacher or counsellor you trust. They might know about resources where you live or help sort transport if needed.  
+
+If you’re still unsure where to start, type SERVICES here, so I can point you to safe contact options. Whatever your situation, there’s always a way through. You’ve got this! 🩷",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,1,"I'm 14 and female, no insurance—can I get tested for STIs for free or cheap?","Yoh, it's great that you're taking your health seriously! 😊 In South Africa, you can get tested for STIs for free at public health clinics, and you don't need medical aid for that. Just head to your nearest government clinic and tell them you want to get tested.
+
+Here’s what usually happens at the clinic:
+- You’ll have a chat with a nurse or health worker who’ll ask a few questions about your health.
+- The tests are quick and may involve a urine sample, vaginal swab, or a little finger prick for blood if they test for HIV.
+- If you need treatment, they’ll explain what’s available, and many treatments are free.
+
+Just a heads-up, Big Sis can't provide specific service details because AI isn't always reliable. For the safest options, type SERVICES to check out the vetted services. You can also call the free Big Sis Helpline at 0800 12 84 55 or Childline SA if you need support. Taking care of your health is so important! 💕",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,2,can i go by myself without my parents knowing? or do they always ask for permission?,"Fede, girl, I feel you—sometimes you just wanna sort things out without involving the rents. The good news? In South Africa, you don’t need your parents' permission to get tested for STIs or access sexual health services, *no matter your age*. 🙌 Healthcare workers at public clinics are trained to respect your privacy, so they won't go calling your parents without your say-so.
+
+Here’s the deal:
+- You have the **right** to access healthcare services, including STI testing. It’s protected under South African law! 💪
+- When you visit a clinic, they may advise you to talk to a trusted adult, but only to support you—they can’t force you or share your info without your consent.
+- If you want to go solo, just rock up to the clinic with your ID or birth certificate (if you have one). But even if you don’t have any documents, they should still help you.
+
+Remember, chommie, your health is your business. If you’re scared or have more questions, let me know. You’ve got this! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,3,"So if I go alone and have no money or ID, will they still test me? I live kinda far.","Eish, listen chommie, your health matters, and you have the right to get care, no matter your situation. Public clinics in South Africa are there for you, even if you’re short on cash or don’t have an ID. Just explain what’s going on, and they should help you out.
+
+When you get to a government health clinic, it’s cool if you don’t have ID—just chat to the staff. They might ask you some questions, but be honest and skip anything that makes you uncomfortable. If you need guidance or want to check on clinic details, the Big Sis Helpline is available at 0800 12 84 55. 
+
+I know that finding the right service can be a bit frustrating, but for the safest options, type SERVICES to access the Big Sis Services Directory. You got this, and remember to take care of yourself! 🌼",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,4,"Can they give treatment same day? btw I'm 14, no money and travel is hard.","Eish, I know that travel and cost can be a real struggle sometimes, chommie. If you're looking for STI testing and treatment at public clinics, there are some important things to keep in mind:
+
+- You can often get tested and treated on the same day, but it depends on the clinic. Some infections can be treated right then and there, while others might need follow-up care.
+- Good news! All services should be free, even if you don’t have cash or medical aid. That’s one less thing to stress about! 💸
+- If getting to a clinic is tough, see if someone can help you out with a lift or go with you—no pressure if you want to go solo, though. 
+
+For safer options, just type SERVICES to check out the Big Sis Services Directory. I know it’s frustrating, but it's the best way to find reliable help. And if you need immediate support, don’t hesitate to call the Big Sis Helpline at 0800 12 84 55 or Childline SA. You're really brave for handling this!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,5,How long does testing/treatment usually take? Can I do it after school? I'm 14 and travel's hard.,"Aweh, chommie! Big respect for taking charge of your health—it’s super important! 💖 
+
+For STI tests, results can be quick. Blood tests like HIV might take about 15 to 30 minutes, and some, like rapid HIV tests, can even give results on the spot. If samples need to go to a lab, though, you may wait a few days. If you need treatment, it’s usually given right away at a public clinic, which is free! Expect it to take around 30 minutes to an hour after testing.
+
+After school is a good time to go since most public clinics are open until around 4pm or 5pm. Just remember to go early enough so you don't feel rushed! If you’re not sure where to find a clinic, type SERVICES for a list of vetted options. 
+
+If you need someone to chat with, call the Big Sis Helpline at 0800 12 84 55 or reach out to Childline SA. You’re not alone in this, wena! 💪🏾",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,6,"If I leave school at 3, can I get tested and treated there without multiple visits?","Fede, chommie, leaving school at 3PM should give you enough time for testing and, in most cases, treatment, especially if the clinic is close to you. Here's how it generally works:
+
+- **Testing:** Most public clinics can test for STIs, including HIV, and some results (like HIV rapid tests) come back quickly—within 15–30 minutes. Other tests, like for STIs such as chlamydia, may need lab processing, meaning you might need a follow-up visit to get those results.
+
+- **Treatment:** If you test positive for an infection that doesn’t require lab processing to confirm, you’ll likely get treatment the same day. For example, bacterial infections like chlamydia and gonorrhoea are often treated with antibiotics there and then. 🩺
+
+Since travel is tricky for you, explain your situation to the nurse when you arrive and ask if everything can be handled in one visit—it might depend on what they find during the testing. Also, clinics tend to get busy, so try to go as soon as school finishes to avoid long queues.
+
+You’re brave for taking this step. If you need help finding a clinic nearby or have more worries, type SERVICES for info or call the Big Sis Helpline at 0800 12 84 55. You're sorting out your health like a champ! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_2,7,"how long are queues usually? i only have like 1–2 hours after school, i'm 14 and travel's hard","Yoh, I hear you, chommie! Queues at public clinics can sometimes take time, depending on how busy they are and the services people need. Here's the lowdown:
+
+- **Timing matters:** To save time and beat long queues, try going as early as possible after school. Clinics often start getting quieter later in the afternoon, but some services might stop a bit before closing time, so get there at least an hour before they close.
+
+- **Wait times:** It’s hard to say exactly, but it’s not unusual for wait times to be 1–2 hours, especially at busy public clinics.
+
+- **Tips for you:** Bring something to keep busy while you wait—your phone, earphones, or even schoolwork 📱📚. If possible, ask the clinic beforehand if testing and treatment for STIs can be done same-day.
+
+If you’re not sure how to get there or which clinic is closest, type **SERVICES** for help. Also, don’t hesitate to reach out to Childline SA or the Big Sis Helpline at **0800 12 84 55** for advice or support.
+
+You're showing such responsibility, and I’m really proud of you for taking control of your health! 👏",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,1,"I'm 14 and have no insurance, where can I get an STI test cheap or free?","Aweh, taking charge of your sexual health is such a powerful move, and I’m stoked you want to stay safe! 💪 At 14, you have the right to access free or low-cost STI testing at local government clinics or community health centres. In South Africa, these services are usually free, and you don’t need insurance or parental permission. 
+
+Just remember, the nurses and healthcare workers are there to help you, not judge you—totally chilled vibes! If you can't find a clinic, check out the Big Sis Services Directory by typing SERVICES for vetted options that can assist you. I get that it might be frustrating, but choosing safe and reliable services is important.
+
+You can also reach out to the Big Sis Helpline at 0800 12 84 55 if you need more guidance. Health is wealth, wena! 🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,2,Do they ever charge though? I’m 14 and can’t afford bus fare or tests.,"Eish, I feel you, chommie! Money can be tight, but here's the good news: getting tested for STIs at government clinics in South Africa is usually free. Just remember, you can go alone since you're 14—no need for an adult! 
+
+If transport is a hassle, try to find out which clinic is closest to you, or you can type SERVICES to check out the vetted options available. I know it can be frustrating, but going through the SERVICES directory is the safer choice. 
+
+If you ever need more help, don’t forget you can call the Big Sis Helpline at 0800 12 84 55 from Monday to Friday or reach out to Childline SA. You're taking a brave step, and it’s awesome! 🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,3,Do mobile clinics or school nurses do free STI tests? I seriously have no money for transport.,"Eish, I know money stress can be a real challenge, but there are options out there for you, chommie!
+
+You might want to look for *mobile clinics* that come to townships or schools for free healthcare services, including STI tests. If the info isn’t online, ask your teachers or community centres; they might have the scoop on when these clinics come around.
+
+Don’t forget about your *school nurses or clinics*. They may provide free support and point you in the right direction if they don’t offer testing themselves. Just chat to them—they’re there to help you.
+
+Since I use AI, I can’t share specific details, but check out the Big Sis Services Directory for vetted services by typing SERVICES. It might seem frustrating, but it’s the safer option. You can also call the Big Sis Helpline at 0800 12 84 55 or get in touch with Childline SA for support. Just know you’re not alone! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,4,Can school nurses test me without my parents finding out? I'm 14 and can't pay.,"Eish, it's totally understandable to want to keep your health stuff private, especially when it comes to sexual health. Just so you know, as a 14-year-old, you have the right to access healthcare in South Africa, including STI testing, without needing parental consent. 
+
+If your school nurse can’t do the tests, they can still direct you to free local clinics or mobile health centres—still no need for parental permission! It's always a good idea to ask about privacy before sharing any personal info. 
+
+For more vetted services, type SERVICES to access the Big Sis Services Directory. I know it's a bit of a hassle, but it’s the safer way to go. If you need someone to talk to, you can reach the Big Sis Helpline at 0800 12 84 55, or check out Childline SA for support. You’re taking a brave step for your health, chommie! Keep it up! 💖",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,5,I got no money for the bus — can my school organise testing days or free transport?,"Eish, it’s awesome that you’re looking out for your health, chommie! Your school might do health awareness events or testing days with mobile clinics for things like HIV and STIs. It’s a good idea to chat with the school nurse or principal about getting something like that going for everyone. 
+
+For transport, it’s tricky, but sometimes community organisations team up with schools to help out. 
+
+I can’t share specific service details because I use AI, and it’s not always 100% reliable. You can check out the Big Sis Services Directory for vetted services—just type SERVICES. I know it can be frustrating, but it's a safer option. 
+
+You can also reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA if you need more help. Remember, your health matters, and you deserve the best care! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,6,"If I talk to the principal, what do I say to get a mobile clinic here? I’m 14 and broke.","You’re brave for wanting to take action for yourself and others—respect for that, chommie! Here’s how you can approach your principal step-by-step:
+
+### Step 1: Be clear about the need  
+Explain why a mobile clinic would be helpful. Something like: ""Many learners, like me, want to take care of our health, but transport costs make it hard to visit clinics. A mobile clinic could help us access medicines, STI tests, contraceptives—or general health checks—without extra costs."" 🙏🏽
+
+### Step 2: Emphasise privacy  
+Let them know this would help learners feel more comfortable discussing sensitive topics like sexual health. (Privacy can make such a huge difference!)
+
+### Step 3: Suggest possible connections  
+Ask if the school knows of partnerships with health organisations, government clinics, or NGOs that run outreach programmes. These groups often provide free mobile clinics near schools.
+
+### Step 4: Keep focus  
+Stay calm and professional as much as possible—this helps show maturity and seriousness about the issue. 
+
+If that sounds scary to do solo, ask your counsellor or school nurse to back you. You're making powerful moves, chommie! 💪📚",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_3,7,"Give me a short thing to say to the principal? I'm 14, no money, scared to mess up.","No stress, I’ve got your back! 😊 Here’s a simple thing you can say:
+
+""Good day, sir/ma’am. I wanted to ask if our school could organise a visit from a mobile health clinic. A lot of learners, including me, struggle to afford transport to clinics, but we still need healthcare like STI tests, contraception, or even general check-ups. Having something like that here could really help students stay healthy and focused on school.""
+
+That’s short and sweet, but it shows you're serious too! You’ve got this! 💖",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,1,"I'm 14, female and uninsured—can I get STI tests secretly? how much would it cost?","Shap, sis—here’s the stuff you need to know. 💜 In South Africa, public healthcare clinics and hospitals offer **free STI testing**, even if you don’t have medical aid. You can visit any government clinic confidentially, meaning they won’t tell anyone (not your parents or anyone else) unless you’re in danger of harm. This is your right! 🚨
+
+- The clinics don’t ask you to pay for a test, but make sure they’re doing it for STIs specifically. 
+- Testing can include a urine sample, vaginal swab, or sometimes blood tests depending on what infections they're checking for.
+- **Under 16?** If you’re sexually active, healthcare workers may ask some questions about consent or your situation to make sure it’s safe. Just be honest—they’ve heard it all 😉. You don’t need a parent present, though.
+
+If you prefer privacy, pharmacies offer home STI test kits, but they’re pricey—often R500+. It’s better to go to the clinic if money’s tight.
+
+Also, if you're worried about situations involving consent, let me know—I can guide you. You're brave for reaching out! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,2,Okay… really free? Will they ask for ID or contact my parents? I'm 14 and have no insurance.,"Yoh choma—you’re covered, I promise! Here’s how it works:
+
+- **Free service:** Government clinics and hospitals in South Africa provide free STI testing without needing insurance or money. You won’t be charged, even if you don’t have medical aid.
+  
+- **ID:** Clinics might ask for your ID or birth certificate to fill in their forms. If you don’t have ID, they’ll still help you—you can explain your situation. 👍 Your identity stays private.
+
+- **Parents:** They won’t contact your parents unless there’s a serious reason, like if they feel you’re unsafe (e.g., abuse or exploitation). Healthcare workers are trained to respect your privacy, even if you’re under 16. Everything you share will stay confidential unless they’re worried for your safety.
+
+If it feels nerve-wracking to go on your own, is there a trusted adult (like an auntie, sibling, or a friend) who could go with you for support? 💜 You’re brave for asking—even young people deserve care and answers. If you want to chat more about this, I’m here for you! 🌸",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,3,Okay thanks. How long do results take? Can they treat me same day if positive? I have no money.,"Fede, here's what you need to know, sis. 💡
+
+- **Results timing:** At government clinics, STI test results usually take **a few days to a week** depending on the type of test. HIV results from a finger-prick test are often ready within **minutes**, but tests for other STIs (like chlamydia or gonorrhoea) might need more time since they’re sent to a lab.
+
+- **Same-day treatment:** If the clinic staff strongly suspect an STI based on your symptoms, they might start treatment right away—even before test results come back. Many common STIs, like chlamydia, can be treated with **free antibiotics** at the clinic. Other support, like counselling or advice, is also included.
+
+- **No money needed:** Govt clinics offer treatment for **free**. Whether you’re testing or getting medication, you don’t need to pay a cent—even without insurance or any money.
+
+Getting checked is brave, and you’re taking care of yourself like a queen. 👑 You have options and help, always! Let me know if you have any other questions, chommie—you got this! 🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,4,Okay cool — how do I find a free clinic near me? I can't afford transport.,"Eish, I feel you, chommie—transport costs can be a real pain! It’s important to know that help is out there. You can check out your nearest government clinic for free STI testing. There are also good resources, like your school nurse or health programs, which might help you find services closer to home or even provide some support directly. 
+
+Look out for mobile clinics in your community too. They often offer free health services, and sometimes your ward councillor can give you the lowdown on where they’ll be next. 
+
+Remember, I can’t share specific service details since I use AI and it’s not always spot-on. It might be frustrating, but I recommend you check the Big Sis Services Directory—just type SERVICES for reputable options. If you need to talk to someone right away, hit up the Big Sis Helpline at 0800 12 84 55 or Childline SA. You deserve access to the care you need! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,5,Do mobile clinics actually come close to houses? Can't afford bus fare :/,"Yoh, I totally get you, chomi—transport costs can make things tricky. The good news is mobile clinics often visit areas **close to where people live** or in central community spots like taxi ranks, churches, or schools. 🚌 They’re designed to reach those who don’t have access to transport or nearby clinics. If you're unsure of their schedule, you can reach out to your local ward councillor or community health office to find out when they're coming near you. 👩🏾‍⚕️
+
+Another option could be talking to community organisations or even teachers (if you're in school)—they might know about free transport options or events where mobile clinics provide STI testing or contraception. 💡 Some clinics even work with health outreach programs that might cover transport costs in certain cases.
+
+You’re truly strong for seeking help despite the challenges. 💪🏾 Don’t give up; your health is worth prioritising! Keep asking if you need more info. 😊",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,6,I'm still at school—would they come to school grounds? I have no money for taxis,"Aweh chomi, I hear you loud and clear—transport can be a real issue, but there’s hope! 🏫 Mobile clinics do sometimes visit schools, especially if your school is part of a health outreach program or government initiative. These programs focus on providing services like STI testing, contraception, and basic health checks directly at schools so learners don’t have to worry about transport or clinic queues. 🚑
+
+I’d say chat to a teacher, school counsellor, or even your Life Orientation teacher about whether your school hosts any mobile clinics or outreach visits. If not, they might know of organizations that work around your area to bring free healthcare closer to learners like you. 🌟 
+
+Alternately, some wards or communities organize health drives—ask your ward councillor about mobile services visiting nearby halls or public spaces. You deserve access to healthcare, and being proactive like this is already such a boss move! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_4,7,"If I talk to the school nurse, will they have to tell my mom? I'm 14 and worried.","Eish, I know it can be a bit daunting to talk about personal stuff, especially with the fear of someone spilling the beans to your parents. Just know that healthcare providers like school nurses are usually required to keep your info confidential unless there’s a serious risk to your health or safety. 
+
+At 14, you can generally access sexual health services without needing parental permission. It’s totally cool to ask the nurse, “Will this stay private between us?” You deserve to know how your info will be handled.
+
+If you feel uneasy with the school nurse, try visiting a youth-friendly health centre. I get it can be frustrating not to have all the details, but I can’t share specific service info since I use AI, and it’s not 100% reliable. You can check the Big Sis Services Directory by typing SERVICES for vetted options. Also, you can reach out to me at the Big Sis Helpline: 0800 12 84 55 or chat with Childline SA. Take care, chommie! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,1,I'm 14 and kinda worried—can I get tested for STIs without insurance? cost? confidentiality?,"Yoh, it’s great that you're taking charge of your health, chommie! At 14, you can absolutely get tested for STIs—it's a smart move. 
+
+In South Africa, you don’t need insurance for STI testing. Government clinics usually offer it for free, and while private clinics might charge a fee, the public ones are often easier to access. If you want more help finding a place, hit up the Big Sis Helpline at 0800 12 84 55 during the week or check out Childline SA. 
+
+About keeping things private, health professionals are trained to maintain confidentiality, but since you’re under 18, sometimes you might need to take a trusted adult with you. You can also ask the nurse to keep your visit confidential. 
+
+For more options, you can type SERVICES to see vetted places for support. I know it can be frustrating, but that’s the safest way to find help!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,2,Do public clinics tell my parents? I don't want them to know and I can't pay.,"Fede wena ✨ You’re not alone; lots of young people feel the same way when it comes to privacy about sexual health. Here’s the deal:
+
+At public clinics in South Africa, your confidentiality is protected—even if you're under 18. The nurses and healthcare workers can’t share your personal info (like why you visited) with your parents unless they feel there's a serious risk to your health or safety. You can tell them directly that you don’t want your family involved, and they’re trained to respect this. 👌
+
+When it comes to costs, public clinics offer STI testing and other sexual healthcare for **free**—so you don’t need to stress about paying. Just go to your nearest clinic, explain your situation, and ask for testing. You’ll also get advice and treatment if needed.
+
+If you’re still a bit nervous about the process, try bringing a friend or somebody you trust for support. You’ve got this! 💪💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,3,Can I just go alone? Need ID or money? I'm 14 and can't afford anything.,"Aweh, you’re brave for asking the real questions here. Yes, chommie, you can go alone—no parent or chaperone needed. At 14, you have the right to access healthcare without anyone’s permission. 💯
+
+Here’s what you need to know:
+- **ID:** It’s always helpful to bring your ID (or your birth certificate), but if you don’t have one, most clinics will still assist. Just let the nurse know your age, and they’ll guide you through.
+- **Cost:** Public clinics in South Africa won’t charge you for STI testing or treatment, so you don’t need to worry about money. Everything is free.
+- **Confidentiality:** Your visit can remain private—just let them know you’d like it to stay confidential. If you're feeling uncertain, speak up!
+
+Find your nearest government clinic and head there whenever you're ready. 🌈 If you want extra reassurance or tips for the process, drop me another message—I’ve got you! ✊❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,4,"Do public clinics test for HIV and chlamydia? I'm 14yo, can't pay—how long for results?","Yoh, good on you for taking your sexual health serious, chommie! 🌟 Yes, public clinics in South Africa test for both **HIV** and **chlamydia**—for free! You don’t need to pay anything or have insurance, so no stress there. 
+
+Here’s how it works:
+- **HIV testing:** Usually done with a quick finger prick for a bit of blood 🩸. Some clinics offer results within a few minutes—the nurse will explain everything if it’s positive or negative. 🙌
+- **Chlamydia testing:** This might involve peeing in a cup or a swab if necessary. Results can take **a few days** or up to **a week**, depending on the clinic.
+
+You’ll be seen privately, so you can ask the nurse to keep everything confidential. If you don’t have an ID, just tell them your age—they’ll help you out.
+
+Take the first step and check out the nearest government clinic. You’re doing something super empowering for your health! 💪💜 Feel free to ask follow-ups if you're still unsure, wena!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,5,"Um, if tests come back positive, will they give meds that day? I'm 14 and low on cash.","Shap! You’re asking the right questions, and I’m here for it. 💪 If your tests come back positive, public clinics in South Africa will usually give you the treatment **on the same day**, especially if it’s for something like chlamydia or other treatable STIs. They won’t charge you for the meds either; everything is free at government clinics. 🎉
+
+Here’s what could happen:
+- **HIV positive:** The nurses will explain it all carefully and help you start treatment (like antiretroviral meds, or ARVs). These are also free and super effective at managing HIV, so you can still live a healthy life.
+- **Other STIs, like chlamydia:** They’ll give antibiotics or whatever meds are needed right there—or possibly ask you to return if they need to order stock.
+
+Don’t worry about your age or money; the clinic is there to help you. If you ever feel overwhelmed, you can ask the nurse questions or even call a helpline for support. You’ve got this! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,6,"If I get treated, will they give meds for my partner too? I can't afford extra visits.","Eish, I hear you—making sure your partner gets treated too is so important. 💯 At most public clinics in South Africa, if your test is positive for something like chlamydia or another treatable STI, the nurse may ask about your partner and suggest they come in too. 
+
+Here’s what you need to know:
+- **Partner treatment:** Clinics often *won’t give meds for your partner to you directly*—your partner will probably need to visit the clinic themselves. It’s free for them too, and nurses will make sure they get properly tested and treated. 👍
+- If your partner can’t afford the transport or has work/school commitments, try explaining their situation to the clinic staff. They might find a solution or advise you on what’s best. 🌟
+
+You don’t need to feel alone in this—grab some courage, encourage your partner to go along and keep chatting about your health openly. Your effort will protect both of you in the long run. 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_5,7,"I'm 14, no money—if my partner can't go, can the clinic send meds or a script for them?","Unfortunately, chommie, clinics *can’t send meds* or scripts directly to your partner. It’s really important for them to visit the clinic themselves—they need to be properly tested first so the right treatment can be given. 💊 Each person's health is unique, so medicine that works for one might not be right for another.
+
+Here’s an option to try:
+- **Explain your situation:** When you go to the clinic, let the nurse know your partner can’t attend because of money, time, or other challenges. They might offer advice or ways to help your partner access treatment. Nurses at public clinics are often really understanding. 💜
+
+Encourage your partner to prioritise their health, as untreated STIs can cause complications for both of you. If transport or timing is the issue, maybe you can help brainstorm ways or look for free clinics nearer to them. You’re doing something brave by putting your health first, and this convo is a great example of self-care! 🙌",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,1,I'm 14 and don't have insurance — can I get tested for STIs somewhere free or without parents?,"Aweh, wena, good on you for taking charge of your health—very responsible of you! 🧡 Luckily, in South Africa, accessing sexual healthcare doesn’t require insurance or your parents to know. You *can* get tested for free at local government clinics and hospitals. 
+
+Here’s what you can do:
+
+- **Government clinics**: Visit your nearest public clinic or hospital. These offer free STI testing, treatment, and counselling services. Since you’re over 12, you don’t need a parent or guardian’s permission to access these services. Just ask to speak to a nurse about STI testing. They’re there to help you and it’s confidential 🩺💬.
+
+- **Cheaper private options**: Some private pharmacies offer affordable tests. You don't need insurance for these, but a government clinic remains free if cash is tight.
+
+- **If you’re nervous**, that’s totally okay! When you talk to the nurse, just let them know this is your first time, and they’ll guide you through everything.
+
+By law, your visit and test results are private—your parents won’t be informed unless *you* decide to tell them. You got this, sisi! 🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,2,I'm 14 — how do I find the nearest clinic tho? I can't pay for transport.,"Eish, transport issues can be a real pain, but don’t stress, chommie! If you need to find a clinic or health service, I’ve got your back. I can’t share specific details because my info isn’t always reliable, but you can check the Big Sis Services Directory by typing SERVICES for vetted options. 
+
+If you need someone to talk to, the Big Sis Helpline is available at 0800 12 84 55, from Monday to Friday, 7am to 7pm, and Saturday, 8:30am to 12:30pm. You can also reach out to Childline SA for support. 
+
+You got this, and remember, it’s always okay to ask for help! 💛🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,3,I'm 14 and broke — do mobile clinics or school nurses do STI tests near me?,"Yoh, I feel you, sisi—money struggles are real, but don’t worry, there *are* options! Many areas in South Africa have public mobile clinics, and they often offer STI testing for free or super affordably. These move around communities, so if you’re lucky, you might find one close to your area. It’s worth asking people in your neighbourhood or at your community centre if there’s a schedule for mobile clinics near you. 🩺🚐
+
+As for school nurses, it depends on the school. Some schools partner with health services, and their nurses might refer you to a clinic or even organise testing days. If your school has a nurse, you can ask them confidentially if they can help you access health services.
+
+Another option is heading to your nearest government clinic—they’re free, and usually closer than you think. If walking is unsafe for you, chat to a trusted adult, teacher, or community leader about transport options. Never be shy to ask for help; taking care of your health is worth it! 🌟💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,4,"Do mobile clinics test for stuff like chlamydia and gonorrhoea too, or just HIV? How do they test, swab or pee?","Hayibo, good question! Mobile clinics don’t just test for HIV—they usually offer wider STI testing, including chlamydia and gonorrhoea. 🌈 It can vary depending on the clinic and resources available, so it’s best to ask when you visit or give them a quick call if you can. Most mobile clinics focus on making health services *as accessible as possible*. 💪🏾
+
+Here’s how they might test:
+- **Chlamydia/gonorrhoea:** They often ask for a urine sample (yep, just peeing in a cup). Some clinics might also use a vaginal or cervical swab, but this depends on what testing equipment they have.
+- **HIV:** Usually, it’s a painless finger-prick to collect a bit of blood 🩸.
+- **Other STIs:** Some might do blood tests or visual checks if you’re experiencing symptoms.
+
+If you’re unsure, just ask them what to expect—it’ll help you feel more comfortable. Don’t worry; nurses deal with this stuff all the time, and they’ll guide you through it step by step. You’re taking such a big and brave step for your health! 👏💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,5,Do I have to hold my pee before testing? I can't afford extra trips.,"Shap shap, lemme break it down for you! If you’re doing a urine test for STIs like chlamydia or gonorrhoea, some clinics might ask you to avoid peeing for about **1–2 hours** beforehand. This helps ensure a stronger sample. 💦 But don’t stress—if you didn’t plan ahead and already peed, most clinics will work with what’s possible. Just let the nurse know so they can guide you.  
+
+To avoid extra trips, it’s a good idea to ask specific questions when you arrive. For example:
+- ""Do I need to wait before the test?"" or 
+- ""How long do I need to hold my pee if I come back for testing?""  
+
+Also, if you’re going by mobile clinic or walking distance, call ahead (if possible) to confirm what you’ll need and their exact location. Some days they have outreach programs happening elsewhere.
+
+You’re being proactive and handling business like a champ—keep it up! 🌟👊",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,6,"I’m 14 btw — just peed, can they still test me or do I need to wait and return?","Aweh! At 14, I get why you wanna sort this out without stressing about multiple trips. Don’t panic—most clinics will still be able to test you even if you’ve just peed. 💧 Just let the nurse know what happened, and they’ll guide you! If they really need you to wait (like for a urine sample), they’ll likely ask you to chill for an hour or two before testing.  
+
+If returning feels impossible due to costs or distance, explain your situation honestly—they might have alternative ways to test for what you need, such as a swab or blood test, depending on what STIs you’re checking for. 🧪👩🏾‍⚕️ Nurses are there to help, not judge.
+
+You’ve made such a strong move by choosing to protect your health—keep that energy! Don’t be shy to ask questions while you’re there. You got this, wena! 💜💪",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_6,7,"So if I already peed, can they do a swab or blood test now so I don't have to return?","Yoh, I feel you! If you’ve already peed and can’t wait or come back, let the nurse know—it’s possible they can do a **swab or a blood test** depending on what you’re being tested for, especially for certain STIs like chlamydia or gonorrhoea. ✌️
+
+- **Swab test:** This might involve the nurse taking a sample from your vagina or cervix (if you’re comfortable), or you could be given a swab to do it yourself. It’s quick and doesn’t hurt, though it might feel a bit weird.
+- **Blood test:** Blood is often used for testing STIs like HIV or syphilis, so if those are your concerns, they can likely test right away. 🩸
+
+Just be honest with the nurse—they’ve probably helped tons of other teens in the same situation and will do their best to make it work. Nurses are there to care for you, and you have every right to feel safe and supported. You’re being so responsible about your health, chommz. Proud of you! 💜💪",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,1,I'm 14 no insurance. Can I get STI tests free/cheap? Need parent's OK?,"Alright, so here's the deal: in SA, even if you're 14 and don't have medical insurance, you can still get STI tests for free or at a low cost at public clinics, like your local government clinic or hospitals. They operate under the Department of Health, so you don’t pay. 🎉  
+
+Now about needing your parent’s permission—it depends. According to SA law, you have the legal right to access sexual and reproductive health services (like STI testing or contraception) **from age 12**, without needing a parent or guardian's approval. You're in charge of your health choices, my warrior. 💪🏾 The staff should respect your privacy, so don't fret about them running to your parents.
+
+To get started:
+- You can visit a government healthcare facility or a youth-friendly clinic if they’re available nearby.
+- If you're shy about asking questions, you could start small and just say ""I’d like to get tested,"" and they’ll guide you.
+
+Let me know if you need tips on how to navigate the clinic vibes, hey! You're brave for doing this. ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,2,Okay thanks. How do I find somewhere nearby? I can't afford bus fare to go.,"Transport can be a challenge, but you’ll get through this! You can find a clinic nearby that offers free STI testing. Here are some tips:
+
+1. **Search Online**: If you're connected, try looking for ""free STI testing clinics near me South Africa"" to get options.
+
+2. **Ask Trusted Adults**: If you’re in a township or neighbourhood, chat to trusted adults or locals about where the nearest government clinic is; they usually have the info.
+
+3. **Community Healthcare Workers**: If you know anyone in community outreach, they can guide you to the closest clinics.
+
+Remember, public clinics are FREE, so you won’t need to worry about payment. If you need to walk, do it if it’s safe. If you feel unsure, reach out to the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or Childline SA for support. You’ve got this! 💜 For more info, type SERVICES and check out vetted options.",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,3,"Do mobile clinics or school nurses do testing? I live far, no money for taxis/bus.","Eish, living far can be a mission, but we can still find ways to get the help you need. 🌍 Here’s what you can do:
+
+There are often **mobile clinics** that come to different communities, offering FREE services like STI testing and contraceptives. Chat to people around your area or at your local clinic to find out when they’ll be visiting.
+
+If your school has a nurse or a counsellor, they can usually point you to the right services or local clinics for help. Just ask them, “Where can I get a test for my health?”
+
+If you’re looking for more options, consider reaching out to the **Big Sis Helpline** at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or **Childline SA** for support. 
+
+I know it’s a bit frustrating, but for more reliable info, you can type SERVICES, or if you prefer chatting with someone, just type ASK. You've got this, chommie! 💪✨",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,4,How do I find when mobile clinics come? Do they ask for ID or my parents' permission?,"Groot, so here’s how mobile clinics work: 🌍 
+
+1. **Finding a Schedule**:
+   - Mobile clinics are often scheduled by **district health offices**, so you can visit or call your nearest government clinic to ask about their routes and dates.
+   - If you have access to local community WhatsApp groups or school bulletin boards, keep an eye out because they sometimes post updates there.
+
+2. **Do You Need ID or Parents' Permission?**
+   - Nope, you don’t need your parents’ permission for sexual health services, including STI tests, if you’re over **12 years old**. Your privacy is legally protected. 💯
+   - It’s good to take your ID, especially for government-supported services, but if you don’t have one yet, talk to the staff and explain your situation—they’ll help you. 
+
+Give yourself a big thumbs up for wanting to take care of your health—it takes guts, wena! 👊 Keep asking if anything’s unclear. ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,5,Okay cool. If I have no documents will they still test me? Will they contact my parents? I'm 14.,"Aweh! It's so inspiring to see you wanting to take charge of your health—big ups to you! Here's what you need to know:
+
+1. **No Docs? No Problem!**  
+Even without an ID or documents, many government and mobile clinics are still there to help you. They might just need some basic info like your name and age, but they won’t turn you away. Be honest about your situation when you go in. 💪
+
+2. **Parental Permission? Chill!**  
+At **14**, you can access sexual health services, like STI testing, without needing your parents to be involved. Your privacy is protected by law, so they won’t reach out to anyone unless there’s a serious safety issue.
+
+If you're feeling anxious, remember you can call the **Big Sis Helpline** at 0800 12 84 55 for support, or check out the Big Sis Services Directory by typing SERVICES for more options. You got this! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,6,How long do results take? Can they treat me there or do I need to come back?,"Fede, here's how it usually goes:
+
+1. **How long for results?** 🧪  
+It depends on the type of test:  
+   - For **HIV and some STI tests**, results can be ready the same day—some even within minutes!  
+   - Other tests, like for syphilis or certain bacterial infections, might take a week or so. The clinic will let you know when to expect them.
+
+2. **Treatment on the spot?** 💊  
+   - If your results come back quickly and they diagnose something like an STI, you’ll likely be given medication or treatment right away.  
+   - If the results aren't immediate, the nurse/doctor might ask you to return for treatment once the clinic receives them.
+
+Most clinics (including mobile clinics) aim to minimise extra trips ’cause they know transport isn't easy for everyone. 👍✨ Always feel free to ask them directly about how the process works—they’re there to help!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_7,7,"If results take longer, can they give treatment just in case? I'm 14, can't afford transport.","Sho, I hear you—that can be a tough situation. Here’s what you should know about treatment when waiting for results at the clinic:
+
+1. **'Treatment Just in Case'** 🩺  
+   - If the nurse or doctor thinks there’s a strong chance of you having an STI based on your symptoms or sexual health history, they might start treatment straight away even before your results come back. This is called **presumptive treatment**, and it’s done to stop further complications.  
+   - If you’re not showing symptoms and just doing routine testing, they may ask you to wait for the results before giving meds.
+
+2. **Transport Concerns?** 🚎  
+   - Tell the nurse about your difficulty with transport. Some clinics will work with you to make things easier—sometimes by prioritising your results or trying to provide same-day treatment.  
+   - You can also ask if there’s a mobile clinic with faster services near your area.
+
+You're taking amazing steps for your health—proud of you! 🌟 If it’s tricky to talk about this in person, ask about counselling options at the clinic. They’re honestly super understanding. ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,1,"I'm 14, no insurance. Can I get tested for STIs for free or cheap? how does that work?","Aweh, no stress chommie! If you’re 14, you can totally get tested for free or at low cost in South Africa. Public health clinics offer confidential STI testing, and you don’t even need insurance or your parents’ involvement.
+
+Here’s how you can do it:
+1. **Find a clinic**: Go to your nearest public clinic or youth-friendly centre.
+2. **What to bring**: If you have an ID, take it along, but it's not always needed. You also won’t need cash at government facilities.
+3. **The process**: A nurse will chat with you about your health history in private. They might need a urine sample or a simple blood test for HIV.
+
+Testing is quick! If you’re unsure where to go, check out the Big Sis Services Directory by typing SERVICES. You can also reach out to the Big Sis Helpline at 0800 12 84 55 or Childline SA for support.",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,2,I'm 14 tho — can I go alone after school? will they charge me anything? don't have cash.,"Fede, wena can absolutely go on your own to a public clinic, even at 14! In South Africa, there’s no minimum age to access sexual health services, including STI testing or contraception. It’s your right, my love. 💪🏽 
+
+Here’s the deal:
+- **Age:** Clinics will treat you without a parent present. You don’t need anyone to go with you if you want privacy.
+- **Cost:** Public clinics are free, so you won’t need any cash. You won’t be charged for testing or treatment.
+- **After school:** Totally fine to go! Most clinics are open during regular hours, and you might wait a bit if it’s busy. 
+
+Just head there, chat openly with the nurse, and they’ll guide you through the process. Everything is confidential, so no one (not even your parents) will be told unless you want them to know. If you feel nervous, message SERVICES, and I’ll help you find the closest clinic. You’ve got this! 💕",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,3,"I'm 14 — if they find an STI, can they treat me same day? I can’t come back easily.","Aweh, it’s great that you’re thinking ahead and taking control of your health! 💪🏽 If you test positive for an STI, most public clinics can start treatment on the same day. Here’s what to expect:
+
+- **Results and Treatment:** Many STI tests can give immediate results, especially for things like gonorrhoea and chlamydia. If you’re diagnosed, the nurse might give you antibiotics to take right there or send you home with meds.
+  
+- **HIV Testing:** If you test for HIV, most public clinics in South Africa use rapid tests, which means you’ll know your result during the visit. If it’s positive, they’ll explain your treatment options and help you start ASAP.
+
+- **One Visit:** Tell the nurse that you might struggle to come back. They’re usually very understanding and will do their best to sort you out quickly.
+
+Remember, it’s all confidential, so no need to stress about anyone knowing. You’re doing the right thing for your health—proud of you! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,4,"If they start meds there, will they give enough so I don't have to return? I'm 14 and can't come back easily.","Yoh, I totally get that coming back might be tricky for you, chommie! Good news: public clinics usually make plans that work for your situation. 🩺✨
+
+Here’s what you can expect:
+- **STIs like chlamydia or gonorrhoea:** If they prescribe antibiotics, it’s normally a single-dose option or a short course. You’ll either take them on the spot or leave with enough medication to finish the treatment at home. No extra visit needed! 💊
+  
+- **Other infections:** If you need meds for something like syphilis (which might involve an injection) or ongoing treatment, they’ll explain carefully and try to make it manageable for you. Always let the nurse know upfront that you can’t come back easily.
+
+The most important thing is to follow their instructions and take all your meds properly so the infection clears up completely. If you’re nervous, chat to the nurse—it’s your right to ask questions! 💕 Shap shap? 👌🏽",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,5,"Also, will they give antibiotics for my partner too, so we don't both have to return? transport's hard.","Eish, transport struggles are real, hey? Clinics usually try to make it as easy as possible for you and your partner. Here’s how it works: 
+
+- **Treatment for your partner:** If they suspect your partner might have the same STI, the nurse could give you what's called **partner therapy**, meaning antibiotics to pass on to your partner without them having to come in. This happens mostly for STIs like chlamydia or gonorrhoea. Ask the nurse—they’re often flexible when transport is an issue. 🚗💊
+  
+- **Encourage testing:** While partner therapy is helpful, it’s still best for your partner to get tested too. Some STIs don’t show symptoms but can still cause complications, so they might not even realise they’ve got something. If testing isn’t possible right now, make sure they take the meds if the nurse provides them.
+
+You’re doing the responsible thing by thinking about both your health and your partner’s—proud of you, wena! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,6,okay thanks. how many pills would they give for my partner? can i just hand them the meds?,"You’re asking all the right questions, chommie—big ups for being responsible! 💪🏽 Clinics can sometimes give you medication for your partner, but here’s how it works:
+
+- **How many pills?** It depends on the STI being treated. For something like chlamydia or gonorrhoea, your partner might need a single-dose antibiotic or a short course like yours. The nurse will calculate the exact amount and package the meds with instructions, so make sure you know how they should take it. 💊
+
+- **Can you hand it over?** Yes, in *partner therapy* cases, they’ll send the meds home with you, and you can pass them directly to your partner. But you MUST make sure they commit to taking the meds properly—otherwise, they could stay infected and pass it back to you. Also, let your nurse know that transport is tough, so you’re hoping for a one-and-done solution for both of you.
+
+If this isn’t offered, ask them to explain the easiest way for your partner to get treatment. You’re seriously looking out for both of you—even that’s awesome! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_8,7,"if I give pills to my partner, will there be clear dose directions or a note? they might not get it.","Yoh, good on you for thinking ahead! 💡 If you’re provided meds for your partner, clinics usually package them properly with **clear instructions**—things like how many pills to take, when to take them, and whether they should eat first or avoid alcohol, etc. 📜
+
+You can also ask the nurse for a written note or to explain the directions to you so you can help your partner follow them. That way, you’re both 100% sure about what to do. 👍🏽
+
+Remember:
+- **Make sure they finish the meds** as prescribed, even if they start to feel better after a dose or two. That’s key to clearing the infection and avoiding reinfection. 
+- If they still don’t understand, chat it through with them or encourage them to call the clinic for clarity. Health workers are helpful like that!
+
+You’re truly being a great partner, chommie. Keep looking out for each other and don’t hesitate to ask the clinic for extra help if needed. 💖",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,1,I'm 14 and don't have insurance—where can I get tested for STIs cheap or free?,"Aweh, chommie! You’ve got options to get tested, and it’s important for your health. In South Africa, you can get free testing at local government clinics or public hospitals, no need for medical aid. It’s confidential, so there’s no need to worry about judgment.
+
+For a safe way to find services, check out the Big Sis Services Directory by typing SERVICES. This database has vetted options to help you, which is way better than random info. If you want to talk to someone directly, feel free to type ASK. 
+
+You can also reach out to the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or contact Childline SA for support. You’re making a great choice taking care of yourself! 💪",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,2,Okay thanks. Do I need an appointment or can I just walk in? I'm 14 btw.,"No stress, you can walk into most government clinics or public hospitals without an appointment, chommie! Just know that there might be a waiting time, especially if the clinic is busy. 📆 If you can, get there early so you’re near the front of the queue.
+
+Since you’re 14, you have a right to get tested for STIs without needing parental consent—it’s part of your sexual health rights in Mzansi. 🔒 The nurses and staff should still keep everything private, so you don’t have to worry about your parents finding out unless you choose to tell them.
+
+When you go, bring your ID or birth certificate (if you have one) and be ready to answer some questions about your sexual history—this helps the health workers give you the right care. 💊 You’ve got this, wena! 👏 Let me know if you have more questions or need extra tips!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,3,"I don't have an ID, can they still test me? I'm 14.","Hey wena, no ID at 14 is totally common, especially if you haven't got your green ID book yet. Don’t stress too much! You can still get tested at government clinics. They might ask for a birth certificate or some other form of ID, but they usually help you out since teen sexual healthcare is protected by law in SA. Just be honest about your age and let them know you don’t have ID. 
+
+If you’re feeling anxious or unsure, you can call the Big Sis Helpline at 0800 12 84 55 for support and advice. They’re there for you, chommie! Just remember, my AI isn't always 100% reliable when it comes to specific services, so it’s best to check out the Big Sis Services Directory for vetted options. Type SERVICES to get the right info. You're doing great! 🌸",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,4,"Okay but if I’m fourteen and uninsured, are the tests really free? Do they do blood or swabs?","Yes, chommie! At government clinics or public hospitals in South Africa, STI testing for everyone—including teens—is free, even if you don’t have insurance or medical aid. 🩺💯 You’ve got rights to access healthcare, and STI testing falls under those rights. No need to stress about payment, just focus on taking care of yourself! 💪
+
+As for the tests, it depends on what they’re checking for:
+- **HIV Testing:** Usually a quick finger-prick for a small blood sample. Results can be available the same day. 🩸
+- **Other STIs (e.g., chlamydia, gonorrhoea):** They often take a urine sample or a swab from the vagina/cervix (don't panic, it’s quick!). They might also check your discharge if you have symptoms.
+- **Syphilis:** Usually needs a blood test.
+- If you’ve been sexually active and not used protection, they’ll suggest testing for multiple STIs, and they’ll explain everything before doing the tests.
+
+Make sure you mention any symptoms or concerns—being honest helps them give you the best care. You’ve got every right to feel safe and cared for! Let me know if anything’s still unclear. 😊",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,5,Do they just test or can they treat you same day? Like give antibiotics if needed?,"Yoh, good question, chommie! Most government clinics or public hospitals will treat you on the same day if they can confirm you have an STI that needs antibiotics or medication. If tests aren’t instant (like for chlamydia or gonorrhoea), they might ask you to come back once the lab results are ready—but this often doesn’t take too long.
+
+For infections that show clear symptoms (like thrush or bacterial vaginosis), they might give you medication right away without even waiting for full test results. 💊 If the STI is treatable with antibiotics (like syphilis or gonorrhoea), you’ll likely get the first dose at the clinic and instructions on finishing the course.
+
+For some infections (e.g., HIV), the process is different—treatment plans like antiretroviral therapy (ART) take longer discussions, but you’ll have expert guidance to help you through.
+
+Remember, if they prescribe medication, take the full course—no skipping doses—even once you feel better. 🏋🏾‍♀️ You're handling this like a boss! Keep it up! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,6,"If they give antibiotics at the clinic, do I have to pay? I'm uninsured, kinda worried about cost.","Hayibo, don’t stress about the cost, chommie—at government clinics in South Africa, antibiotics for STIs are free, even if you’re uninsured! 💊✨ These clinics are set up to serve everyone, especially youth, and you won’t need to pay for treatment.  
+
+Here’s how it usually works:  
+- If the tests confirm an STI that requires antibiotics, the clinic will provide them from their pharmacy without charging you.  
+- Sometimes clinics might not have stock on the day (it happens 😔), but they’ll refer you to another government facility for free meds.
+
+Private pharmacies do charge for antibiotics, so stick to public clinics where they prioritise hassle-free healthcare for everyone. You’ve got a right to this kind of care—no judgement and definitely no cost. 💪  
+
+Keep asking questions, chommie—I’m here to de-stress this process for you! 😊",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_9,7,"Okay cool — if they give antibiotics, do they give the whole course to take home or just the first dose?","Aweh, good question, chommie! At government clinics, they usually give you the **whole course** of antibiotics to take home—whether it’s pills or a few days’ worth of treatment. 💊 This makes sure you can complete the medication properly, which is super important for beating the infection 💪🏾.
+
+- For some STIs (like syphilis), they might give you an **injection** instead of pills. In that case, you’ll likely get treated fully while you’re still at the clinic.  
+- They’ll also provide clear instructions on how to take the meds (e.g., ""take with food"" or ""finish the whole pack""). If there’s anything you're unsure about, ask before you leave!
+
+If they only have stock for one dose (rare but possible), they’ll advise you to pick up the rest at their pharmacy or another government facility—and again, it’ll be free. 👍🏾  
+
+Wrapping it up? Always finish the course, fam! Even if you feel better, your body needs every dose to fully recover. You’re handling this like a pro! 💜",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,1,I'm 14 — can I get tested for STIs without insurance? worried about cost and privacy,"Eish, I totally understand your worries about money and privacy, but don’t stress. Here’s the scoop:
+
+In South Africa, you can get free STI testing at government clinics. No medical aid or insurance needed, and they keep everything private. Even if you’re 14, you have every right to take care of your sexual health. They won’t share anything with your family or friends unless you ask them to. 
+
+For help, you can reach out to the Big Sis Helpline at 0800 12 84 55 or check out Childline SA. If you're looking for more options, type SERVICES to access a list of vetted services. This is a safer choice than relying on AI for specific info. Remember, taking care of your health is a brave step, chommie! 🌟",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,2,Okay thanks. What should I bring? only have my school ID and parents don't know.,"Eish, chommie! When heading to a government clinic, your school ID should totally work. They usually don’t charge you, so you won’t need much paperwork. Just remember your basic details like your name and area, as they might ask for that.
+
+Here’s a quick list of what to take with you: 
+- Your school ID to prove your identity.
+- A pen for filling out any forms.
+- A bottle of water or a snack for those longer wait times.
+- If it's cool with you, bring a trusted friend for support, but if you’re more comfortable going solo, that’s also fine. 
+
+Clinic staff are chill about privacy, so they won’t contact your parents unless you want them to. 
+
+If you need more help, call the Big Sis Helpline at 0800 12 84 55 or check out Childline SA. For more services, type SERVICES. Remember, I use AI, so it's safer to use vetted services. You’ve got this! 💪✨",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,3,Okay thanks — do they do swabs or blood tests for girls? Will it hurt much?,"Good question, chommie! The type of test you get depends on what you're being checked for, but I promise it's not as scary as it sounds. Here's what usually happens for girls:
+
+- **Swabs**: For STIs like chlamydia or gonorrhoea, the nurse might gently take a sample of your vaginal discharge with a cotton swab. It might feel a little awkward but shouldn't hurt. If you're nervous, take deep breaths to relax. 🌬️
+  
+- **Blood tests**: For HIV or syphilis testing, they'll prick your finger to collect a small drop of blood. It feels like a quick pinch (not really sore), and it’s over in seconds. 💉
+
+Remember, clinic staff will explain everything beforehand. If you’re anxious, let them know—they’re kind and patient. Also, ask questions if you’re unsure about anything.
+
+It’s great that you’re looking out for your health, wena! It’s a brave move, and it definitely shows you’re taking charge of your body. 👏 Keep slaying! ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,4,Do govt clinics charge if I have no insurance? I have no money and my parents can’t find out.,"Eish, just a heads-up: government clinics offer free STI testing, so you don’t need any cash! 💛 This includes tests for HIV, chlamydia, syphilis, and gonorrhoea. Your visit will be private, and the staff won’t contact your parents unless you ask. 🔒 
+
+I can't give specific clinic details because I use AI, and it’s not always reliable. But you can type SERVICES to check out the vetted services available. That way, you’ll have accurate info, which is safer. 
+
+If you need someone to chat with right away, call the Big Sis Helpline at 0800 12 84 55 (Mon–Fri 7am–7pm, Sat 8:30am–12:30pm) or reach out to Childline SA. You're taking a great step for your health. Keep it up, wena! 🌸",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,5,"If they find an infection, is the treatment free too? and can I get meds without parents knowing?","Aweh chommie! If a government clinic diagnoses an STI or infection, most treatments are **free**—including medication. 🩺 This means you won’t need money or medical insurance! They really aim to support youth who might not be able to afford private healthcare. 🙌
+
+When it comes to meds, you can totally get them without your parents knowing—your privacy is guaranteed. You’ll likely need to pick up the meds directly from the clinic or pharmacy, so make sure to follow instructions carefully to clear the infection completely. 💊
+
+If you’re unsure or nervous, just let the nurse know—they’re used to helping people who need confidentiality, especially young girls. You’re doing the right thing by checking on your health. Keep pushing! 💪 Got other questions? Send them my way. ❤️",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,6,How long do results usually take? Can I go after school and not get letters or calls sent to my house?,"Fede! You’ve got this, and it’s great you’re sorting out your health. 🫶 In most government clinics, **HIV results can be ready on the same day**—sometimes within minutes after your blood test. For other STI results (like chlamydia or gonorrhoea), it could take **a few days to a week**, depending on the clinic’s process. They’ll usually send you a text or call you directly, not your home, so you can decide when to check any updates. 📱
+
+And, yes, you can definitely go after school! Government clinics usually operate during the day, some opening as early as 7 am, and closing by 4 pm or a bit later. Just look for a clinic close to school or home to make it easier. If you’re worried about booking or finding the right place, let me know—I can guide you! 🤗
+
+No letters or phone calls will go to your house unless you give permission for that. Your privacy is protected, chommz, so no stress!",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis
+conv_10,7,"I'm 14 — can I go alone? i can't pay for transport tho, what can I do?","Yoh, it’s amazing that you’re taking responsibility for your health at 14! 🌟 You’re allowed to go alone to a government clinic at your age, and they’ll treat you without involving your parents if you ask for confidentiality. That’s your right under South African law. 🏥✅
+
+If transport is tricky, consider these options:
+- Look for a clinic **close to your home or school**. Many areas have local clinics that offer free services.
+- Check if friends or trusted older siblings can help you with a lift or bus fare. Sometimes explaining why you’re going is enough for them to support you.
+- If you’re near a train station or taxi rank, public transport can be super affordable—but only take it if you’ll be safe, okay?
+
+Need extra info on how to find the nearest free clinic? Type **SERVICES**, and I’ll hook you up with resources to help. You’re doing the right thing, wena—keep asking questions if you need more help! We've got you. 💕",srh,stis,none_neutral_just_curious,practical_barrier,female,14,,user does not have insurance,,stis

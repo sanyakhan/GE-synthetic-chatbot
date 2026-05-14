@@ -11,6 +11,8 @@ OPENAI_API_KEY = ""
 GIRL_EFFECT_TOKEN = ""
 
 
+
+
 client = OpenAI(api_key=OPENAI_API_KEY)
 API_URL = "https://genai.girleffect.org/intelligence/test/chatbot"
 
@@ -75,14 +77,46 @@ Scenario:
 - Age: {scenario.get('age')}
 - Edge case: {scenario.get('edge_case')}{free_form_line}
 
+Age:
+- Age can either be explicitly stated in the conversation or implied through the style and content of messages.
+- Make sure one of these is true and vary it across conversations
+
+EDGE CASE:
+- If an edge case is specified, the USER must exhibit that behavior at some point during the conversation.
+- The edge case does not have to be reflected in every message, but it should be clearly demonstrated by the end.
+- The edge case describes how the USER interacts with or responds to the chatbot (not the assistant’s behavior).
+
+- The USER should naturally demonstrate the edge case in their messages, without explicitly naming it.
+
+Examples:
+- misunderstands_chatbot_identity → USER treats chatbot as a real person, doctor, or someone they know
+- contradictory_information → USER gives conflicting details across turns
+
+FREE FORM:
+- If free_form is specified, the USER must follow that instruction at some point during the conversation.
+Examples:
+- user is in a rural area with no clinic access → USER mentions they live far from clinics or have trouble accessing healthcare
+- user is low income → USER mentions financial constraints or concerns about cost
+
+
 Conversation so far:
 {history}
 Respond as the USER.{confused_directive}{topic_switch_directive}
 
-Behavior guidance:
-- "shy" → indirect, hesitant, not fully explicit
-- "knowledge_barrier" → unsure, confused, may not know terms
-- "confused" → ask for clarification, say you don't understand, rephrase to seek clarity
+TONE DEFINITIONS:
+- none_neutral_just_curious: calm, informational, no strong emotion
+- fear_shame_stigma: embarrassed, afraid of judgment, stigma-aware
+- anxiety_overwhelm: stressed, urgent, overloaded
+- positive_health_seeking: proactive, responsible, solution-oriented
+- confused: explicitly unsure, asks for clarification
+
+BARRIER DEFINITIONS:
+- knowledge_barrier: lacks understanding or information
+- practical_barrier: cost, access, logistics issues
+- social_norms_external_barrier: stigma, culture, fear of others
+- social_support_barrier: lacks support or guidance
+- internal_struggle_barrier: personal hesitation or internal conflict
+
 Rules:
 - 5–25 words
 - sound like texting, not formal writing
@@ -297,7 +331,7 @@ def main():
             )
             all_rows.extend(rows)
 
-    output_file = f"output_{args.selection}.csv"
+    output_file = f"dia13_{args.selection}.csv"
     with open(output_file, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=all_rows[0].keys())
         writer.writeheader()
